@@ -1,0 +1,74 @@
+	/* 此样式表为充值和提现共用*/
+	.my_info{color:#5e5e5e}
+	.recharge_zzc, .recharge_money, .recharge_bank, .recharge_jilu{padding:0 40px}
+	.recharge_zzc{border-top: 1px solid #e6e6e6;}
+	.recharge_zzc p{padding:10px;font-size:16px;font-weight:bold}
+	.recharge_zzc span{font-size:50px;font-weight:bold;padding-left:5px;}
+	.recharge_zzc div{position:absolute;top:15px;right:40px;height:33px;line-height:33px;font-size:14px;padding-left:35px;background:url("../images/account_baozhan.png") no-repeat}
+	.recharge_money ul li{padding:0 0 25px 5px;}
+	.recharge_money ul li .recharge_inp{display:block;*display:inline;display:inline-block;vertical-align:middle}
+	
+	.recharge_money ul li .form-select{outline:none;padding: 8px 5px; margin-right: 10px; vertical-align: middle; width:200px;}
+		
+	.recharge_money ul li .recharge_inp label{float:left;display:inline-block;width:94px; margin-top: 9px;}
+	.recharge_money ul li .recharge_inp input{width:240px;height:44px;margin-right:10px;vertical-align:middle;padding: 0 10px; font-size:18px; color: #fc8026}
+	/*.recharge_money ul li .input_tips{color:#cccccc}*/
+	.recharge_money ul li .to_cz{display:block;width:115px;height:38px;line-height:38px;text-align:center;font-size:14px;color:#fff;background:#f5493c;border-radius:5px;margin-left:65px}
+	.recharge_bank{border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+	.recharge_bank p{padding:10px 0}
+	.recharge_jilu p{font-size:14px;font-weight:bold;padding:10px 0}
+	.recharge_jilu table td{padding:5px 0;text-align:center;border-bottom:1px deshed #e6e6e6}
+	.recharge_jilu table tr:first-child td{background:#fcfcfa}
+	.recharge_jilu .wujilu{min-height:300px;position:relative;background:url("../images/account_wujilu.png") no-repeat center 60px }
+	.recharge_jilu .wujilu span{position:absolute;display:block;width:100%;text-align:center;bottom:80px;font-size:14px;font-weight:bold}
+	
+	.contain {box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+	.select { width:200px;height:35px; position: relative;display:inline-block;}
+	.select .auto_hidden {position: absolute;display:none;left:0px;top:31px; border:1px solid #ccc; line-height: 33px; z-index: 99; background: #fff; min-width: 100%; max-height:132px; overflow-x: hidden; overflow-y: scroll;}
+	.select .auto_show{position: absolute; left:0px;top:31px; border:1px solid #ccc; line-height: 33px; z-index: 99; background: #fff; min-width: 100%; max-height:132px; overflow-x: hidden; overflow-y: scroll;}
+	.select .auto_hidden .option,.select .auto_show .option {width:100%; line-height: 33px;}
+	
+	.select .input {margin-right:0px!important;width:183px!important;border:1px solid #A9A9A9;text-align:left!important;padding:8px 5px;  font-size: 12px;-webkit-tap-highlight-color:transparent;}
+	.select .input:disabled { background:#e9e9e9;}
+	
+	/*reset*/
+	.fun-cz em{
+		width: 140px;
+		height: 46px;
+		line-height: 46px;
+		border: 1px solid #e6e6e6;
+		display: inline-block;
+		margin-right: 20px;
+		vertical-align: middel;
+		text-align:center;
+		font-style: normal;
+		position: relative
+	}
+	
+	.fun-cz em.on{
+		border-color: #fc8026;
+		background: url(../images/right-c.png) no-repeat top left;
+	}
+	
+	.pay-tx{
+		width: 240px; 
+		height: 50px; 
+		line-height:50px;
+		margin:10px 0px 15px 100px;
+		display: block;
+	    font-size: 18px;
+	    color: #fff;
+	    text-align: center;
+	    background: #fc8026;
+	    border-radius: 5px;
+    }
+    .pay-tx:hover{
+    	color:#fff;
+    }
+    
+    .banks{
+    	width:240px;
+    	height:50px;
+    	border:1px solid #e6e6e6;
+    	display:inline-block; 
+    }

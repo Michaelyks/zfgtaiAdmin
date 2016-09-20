@@ -1,0 +1,32 @@
+
+	.box{position:relative}
+	#ab_hep_f0 .layout, #ab_hep_f1 .layout, #ab_hep_f2 .layout,  #ab_hep_f3 .layout{overflow:hidden;font-size:20px;line-height:34px}
+	.box .fl, .box .fr{width:545px}
+	#ab_hep_f0 p, #ab_hep_f1 p{padding:10px 0 0 40px}
+	#ab_hep_f2 p,  #ab_hep_f3 p{padding:10px 0 0 64px}
+	#ab_hep_f0, #ab_hep_f1, #ab_hep_f2 , #ab_hep_f3{padding:30px 0;}
+	#ab_hep_f0{background:#eaffdc}
+	#ab_hep_f1{background:#d5a0b7}
+	#ab_hep_f2{background:#c3ecff}
+	#ab_hep_f3{background:#c4c4c4}
+	.bg_line{width:58px;height:4487px;position:absolute;left:50%;top:30px;margin-left:-29px;background:url("../images/help_piont_03.png")}
+	.kefu{height:200px;padding:0 0 18px 150px}
+	img[src="images/help_title3.png"]{padding-top:20px}
+	#ab_hep_f0 img[src="images/help_title3.png"] + p{padding-bottom:65px}
+	#ab_hep_f0 img[src="images/help_title4.png"] + p{padding-bottom:90px}
+	#ab_hep_f1 img[src="images/help_title6.png"]{padding-top:85px}
+	#ab_hep_f1 img[src="images/help_title6.png"] + p{padding-bottom:70px}
+	#ab_hep_f1 img[src="images/help_title8.png"]{padding-top:128px}
+	#ab_hep_f1 img[src="images/help_title8.png"] + p{padding-bottom:110px}
+	#ab_hep_f2 img[src="images/help_title9.png"] + p{padding-left:40px}
+	#ab_hep_f2 img[src="images/help_title10.png"]{padding-top:92px}
+	#ab_hep_f2 img[src="images/help_title10.png"] + p{padding-bottom:145px}
+	#ab_hep_f2 img[src="images/help_title12.png"]{padding-top:88px}
+	#ab_hep_f2 img[src="images/help_title12.png"] + p, #ab_hep_f3 img[src="images/help_title14.png"] + p{padding-bottom:125px}
+	#ab_hep_f3 img[src="images/help_title14.png"]{padding-top:107px}
+	#ab_hep_f3 img[src="images/help_title16.png"]{padding-top:93px}	
+	#ab_hep_f3 img[src="images/help_title16.png"] + p{padding-bottom:55px}
+	
+	
+	
+	

@@ -1,0 +1,44 @@
+
+
+
+	*{margin:0;padding:0}
+	a{text-decoration:none}
+	body{font-size:12px;font-family:"微软雅黑"}
+	ul{list-style-type:none}
+	.clea{clear:both}
+	.red{color:red}
+	.blue{color:#4b95d3}
+	input{outline:none}
+	.change{background:white;border-top:2px solid #1480cc}
+	.page{width:796px;margin:0 auto;background:white;position:absolute;top:50%;left:50%;margin-left:-398px;margin-top:-201px}
+	.page .header{border-bottom:0;box-shadow:none;padding:0;height:54px;line-height:54px;padding-left:56px;background:url("../images/key.jpg") no-repeat 20px center #1480cc;font-size:18px;color:white;position:relative;}
+	.page .header img{position:absolute;right:25px;top:17px;vertical-align:middle}
+	.page .center{position:static;margin: 0px;width:792px;*width:792px;height:349px;border:2px solid #1480cc;border-top:none;padding-top:30px;background:white;}
+	.page .center .list{width:692px;height:300px;margin:0 auto;}
+	.page .center .list .head_ul{background:#e6e6e6;border-bottom:none;width:690px}
+	.page .center .list .head_ul li{float:left;width:100px;height:30px;line-height:30px;color:#848585;border-right:1px solid #dcdcdc;text-align:center;cursor:pointer}
+	.page .center .list ul{border:1px solid #dcdcdc;}
+	.page .center .list ul + ul{margin-top:-1px;padding:27px 0 30px 25px;*height:120px}
+	.page .center .list ul + ul .red_bor{width:100px;text-align:center;padding:3px 5px;border:1px solid #dddddd;color:red}
+	.page .center .list ul + ul input{color:red}
+	.page .center .list ul + ul input{border:none 0;width:80px;text-align:center}
+	.page .center .list ul + ul li{width:330px;float:left;height:30px;line-height:30px;color:#c8c8c8}
+	.page .center .list ul + ul li span{display:inline-block;width:70px;text-align:left}
+	.page .center .list ul + ul .blue{color:#4b95d3}
+	.page .center .list ul + a{display:block;width:85px;height:31px;line-height:31px;margin:50px auto 0;background:#ef8d8d;border-radius:3px;color:white;text-align:center}
+	.page .center .list ul  +.tab{padding:0;display:none;height:177px}
+	.page .center .list ul  +.tab table{width:690px;}
+	.page .center .list ul  +.tab table td{padding-left:25px}
+	.page .center .list ul  +.tab table td + td{padding:0}
+	.page .center .list ul  +.tab table tbody tr td{border-bottom:1px solid #dcdcdc}
+	.page .center .list ul  +.tab table .head_list{width:690px;height:53px;}
+	.page .center .list ul  +.tab table tbody tr{width:690px;height:38px}
+	.page .center .list ul  +.tab table tbody tr img{vertical-align:middle;padding-right:5px}
+	.page .center .list ul  +.tab table tbody .last_list td{border:none 0;}
+	.ping{width:100%;height:100%;position:fixed;top:0;left:0;z-index:100;display:none}
+	.ping .ping_bg{width:100%;height:100%;position:absolute;top:0;left:0;background:black;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5; opacity: 0.5;}
+	.ping .ping_x{width:100%;height:100%;width:400px;height:240px;background:white}
+
+
+
+

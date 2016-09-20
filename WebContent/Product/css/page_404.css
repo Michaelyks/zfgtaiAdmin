@@ -1,0 +1,10 @@
+
+	/* 此样式表为page_404和page_500页面*/
+	.main{width:960px;margin:0 auto}
+	.main .tis, .main .tis2{width:500px;padding-left:200px;margin:0 auto;background:url("../images/error_pic.png") no-repeat left center}
+	.main .Reason{padding-top:200px;height:230px;text-align:center;background:url("../images/error_404.png") no-repeat center 107px}
+	.main .tis2 .Reason{background:url("../images/error_500.png") no-repeat center 107px}
+	.main .Reason p{padding:35px 0;font-size:18px}
+	.main .Reason div{text-align:left;padding-left:152px;}
+	.main .Reason b + ul{list-style-type:square;list-style-position:inside;}
+	

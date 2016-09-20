@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 
+    author: qwy
+    createTime: 2015-04-14 21:44:30
+-->
+<hibernate-mapping>
+    <class name="com.zfgt.orm.UsersInfo" table="users_info" >
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+         <property name="usersId" type="java.lang.Long">
+            <column name="users_id" default="0">
+                <comment>用户总金额</comment>
+            </column>
+        </property>
+        <property name="totalMoney" type="java.lang.Double">
+            <column name="total_money" default="0">
+                <comment>用户总金额</comment>
+            </column>
+        </property>
+        <property name="leftMoney" type="java.lang.Double">
+            <column name="left_money" default="0">
+                <comment>用户当前可用余额</comment>
+            </column>
+        </property>
+        <property name="freezeMoney" type="java.lang.Double">
+            <column name="freeze_money" default="0">
+                <comment>存储冻结资金</comment>
+            </column>
+        </property>
+         <property name="inviteEarnMoney" type="java.lang.Double">
+            <column name="inviteEarn_money" default="0">
+                <comment>邀请好友获得的总奖励</comment>
+            </column>
+        </property>
+        <property name="age" type="java.lang.String">
+            <column name="age" length="3">
+                <comment>年龄</comment>
+            </column>
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="sex" length="2">
+                <comment>性别</comment>
+            </column>
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="phone" length="200" unique="true">
+                <comment>手机号码</comment>
+            </column>
+        </property>
+        <property name="isVerifyPhone" type="java.lang.String">
+            <column name="is_verify_phone" length="2" default="0">
+                <comment>是否验证手机号码;0:未验证; 1:已验证</comment>
+            </column>
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="email" length="500">
+                <comment>邮箱</comment>
+            </column>
+        </property>
+        <property name="isVerifyEmail" type="java.lang.String">
+            <column name="is_verify_email" length="2" default="0">
+                <comment>是否验证邮箱;0:未验证; 1:已验证</comment>
+            </column>
+        </property>
+         <property name="isBindBank" type="java.lang.String">
+            <column name="is_bind_bank" length="2" default="0">
+                <comment>是否绑定银行卡;0:未绑定; 1:已绑定</comment>
+            </column>
+        </property>
+        <!-- <property name="bankName" type="java.lang.String">
+            <column name="bank_name" length="30">
+                <comment>银行名称</comment>
+            </column>
+        </property>
+        <property name="bankAccount" type="java.lang.String">
+            <column name="bank_account" length="50">
+                <comment>银行卡账号</comment>
+            </column>
+        </property>
+        <property name="bankAccountName" type="java.lang.String">
+            <column name="bank_account_name" length="10">
+                <comment>银行卡户名</comment>
+            </column>
+        </property> -->
+        <property name="realName" type="java.lang.String">
+            <column name="real_name" length="10">
+                <comment>用户真实姓名</comment>
+            </column>
+        </property>
+        <property name="idcard" type="java.lang.String">
+            <column name="idcard" length="200">
+                <comment>身份证号</comment>
+            </column>
+        </property>
+        <property name="isVerifyIdcard" type="java.lang.String">
+            <column name="is_verify_idcard" length="2" default="0">
+                <comment>是否验证身份证号码;0:未验证; 1:已验证</comment>
+            </column>
+        </property>
+        <property name="birthday" type="java.util.Date">
+            <column name="birthday">
+                <comment>生日</comment>
+            </column>
+        </property>
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property>
+        <property name="updateTime" type="java.util.Date">
+            <column name="update_time" length="19">
+                <comment>更新时间</comment>
+            </column>
+        </property>
+        <property name="dataProgress" type="java.lang.String">
+            <column name="data_progress" length="10">
+                <comment>记录个人资料进度</comment>
+            </column>
+        </property>
+        <property name="qq" type="java.lang.String">
+            <column name="qq" length="20">
+                <comment>QQ号码</comment>
+            </column>
+        </property>
+        <property name="userPhotos" type="java.lang.String">
+            <column name="user_photos" length="250">
+                <comment>用户头像路径</comment>
+            </column>
+        </property>
+        <property name="nickName" type="java.lang.String">
+            <column name="nick_name" length="50">
+                <comment>昵称</comment>
+            </column>
+        </property>
+        <property name="levels" type="java.lang.String">
+            <column name="levels" length="20">
+                <comment>信用等级</comment>
+            </column>
+        </property>
+        <property name="note" type="java.lang.String">
+            <column name="note" length="250">
+                <comment>备注</comment>
+            </column>
+        </property>
+        <property name="selfIntroduction" type="java.lang.String">
+            <column name="self_introduction" length="500">
+                <comment>自我介绍</comment>
+            </column>
+        </property>
+        <property name="signature" type="java.lang.String">
+            <column name="signature" length="150">
+                <comment>个性签名</comment>
+            </column>
+        </property>
+        <property name="investCount" type="java.lang.Long">
+            <column name="invest_count" default="0">
+                <comment>投资次数</comment>
+            </column>
+        </property>
+        <property name="totalProfit" type="java.lang.Double">
+            <column name="total_profit">
+                <comment>投资总收益</comment>
+            </column>
+        </property>
+        <property name="totalPoint" type="java.lang.Long">
+            <column name="total_point">
+            </column>
+        </property>
+        <property name="level" type="java.lang.String">
+            <column name="level">
+            </column>
+        </property>
+		<property name="pointStatus" type="java.lang.String">
+            <column name="point_status">
+            </column>
+        </property>
+        
+        <many-to-one name="users" class="com.zfgt.orm.Users"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore" cascade="save-update">
+            <column name="users_id" />
+        </many-to-one> 
+    </class>
+</hibernate-mapping>

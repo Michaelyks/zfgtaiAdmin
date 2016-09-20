@@ -1,0 +1,21 @@
+/* CSS Document */
+.revenue_bills { padding:15px; }
+.revenue_bills .tabnav { border-bottom:solid 3px #e4dcd0; height:41px; border-left:solid 1px #e4dcd0; }
+.revenue_bills .tabnav span { float:left; border-top:solid 1px #e4dcd0; padding:0 10px; border-right:solid 1px #e4dcd0; height:40px; font:14px/40px "Microsoft Yahei"; color:#000; background-color:#fff; }
+.revenue_bills .tabnav span.on { border-bottom:solid 3px #fff; color:#666; }
+.revenue_bills .sort { padding:20px 0; height:24px; font:14px/24px "Microsoft Yahei"; color:#666; }
+.revenue_bills .sort label { float:left; }
+.revenue_bills .sort .input { float:left; }
+.revenue_bills .sort .input input { float:left; border:solid 1px #; width:120px; padding:1px; border:solid 1px #dedede; }
+.revenue_bills .sort .input span { float:left; height:24px; padding:0 8px; }
+.revenue_bills .sort .btn { float:left; padding:0 10px; }
+.revenue_bills .sort .btn a { display:block; height:24px; color:#fff; padding:0 15px; background-color:#77c2dd; }
+.revenue_bills .sort ul { float:left; }
+.revenue_bills .sort li { float:left; padding-right:15px; }
+.revenue_bills .table { }
+.revenue_bills .table table { border:solid 1px #dedede; width:100%; }
+.revenue_bills .table th { text-align:center; background-color:#f6f6f6; height:45px; font:14px/45px "Microsoft Yahei"; color:#666; }
+.revenue_bills .table td { text-align:center; padding:5px; font:12px/20px "Microsoft Yahei"; color:#666; }
+.revenue_bills .page { padding:10px 0; height:24px; }
+.revenue_bills .page ul { float:right; }
+.revenue_bills .page ul li { float:left; padding-left:20px; font:14px/24px "Microsoft Yahei"; }

@@ -1,0 +1,16 @@
+	/*投资记录和流水记录公用样式*/
+	.tow_F{width:690px;padding:0 0 20px 20px}
+	.tow_F li{color:red}
+	.tow_F .mingx{text-align:center}
+	.tow_F li a{margin:0 auto;color:blue;font-size:16px}
+	.td0, .td2, .td3, .td4 , .td5, .td6, .td7{font-family:"Arial";}
+	.td4{color:#ff6614;}
+	.td8{color:#777}
+	table{width:690px;border-top:1px solid #1480CC;border-right:1px solid #e2dede;border-left:1px solid #e2dede}
+	table .head_list td{}
+	table tr td{border-bottom:1px solid #e2dede;font:12px/20px "Microsoft Yahei";overflow:hidden; text-align: center; padding:5px;text-overflow: ellipsis;white-space: nowrap;}
+	table tr td a:link, table tr tda:visited, table tr td a:active{color:blue}
+	
+	
+	
+	

@@ -1,0 +1,160 @@
+	.login{
+		height: auto;
+	}
+	.color-blue{
+		color:#3598db
+	}
+	.color-ddd{
+		color:#ddd
+	}
+	.white-bg{
+		background: #fff;
+	}
+	.blue-bg{
+		background:#3598db;
+	}
+	input{
+		border: 0 none;
+		outline: none;
+		box-sizing:border-box;
+	}
+	a{
+		border: none;
+		outline:none;
+	}
+	.iconAll{
+		width:46px; 
+		height:46px; 
+		display:inline-block;
+	}
+	.login{
+		overflow: hidden
+	}
+	.main{
+		width:1200px; 
+		height: 580px; 
+		margin: 40px auto;
+	}
+	.reg-icon{
+		width:464px; 
+		height:46px; 
+		margin:50px auto 20px auto;
+	}
+	.icon-num1{
+		background:url(../images/iconAll.png) no-repeat -2px -2px;
+	}
+	.icon-num2{
+		background:url(../images/iconAll.png) no-repeat -56px -2px;
+	}
+	.icon-num2.active{
+		background-position: -136px -2px
+	}
+	.icon-phone{
+		width: 23px;
+		height: 32px;
+		background:url(../images/iconAll.png) no-repeat -109px -2px;
+		margin: 11px 0 0 15px
+	}
+	
+	.reg-icon-word{
+		width:530px; 
+		height:20px;
+		margin: auto;
+		font-size: 18px;
+	}
+	.reg-icon span{
+		float:left;
+	}
+	.icon-line{
+		width:350px; 
+		height:2px; 
+		margin:22px 10px 0 10px; 
+		background:#ddd;
+		display: block;
+	}
+	.find-pwd{
+		width: 402px;
+		margin: 44px auto 0;
+		overflow: hidden;
+	}
+	
+	.find-pwd>li{
+		width: 398px;
+		height: 56px;
+		margin-bottom: 28px;
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		box-sizing:border-box;
+		overflow: hidden;
+	}
+	.phone em{
+		width: 56px;
+		height: 56px;
+		display: inline-block;
+		float: left;
+		background: #f0f0f0;
+	}
+	
+	.find-pwd input{
+		width: 340px;
+		height: 54px;
+		line-height: 54px;
+		padding: 0 10px;
+		color: #d0d0d0;
+		font-size: 18px;
+	}
+	
+	.find-pwd input:focus{
+		color: #555;
+	}
+	.find-pwd .ver input{
+		width: 256px;
+		float: left;
+		display: block
+	}
+	.btn-a{
+		width: 140px;
+		height: 56px;
+		line-height: 56px;
+		text-align: center;
+		font-size:18px;
+		display: inline-block;
+		color: #fff;
+		float: right;
+	}
+	.btn-a.reg_now{
+		width: 100%;
+		font-size: 20px;
+	}
+	.safe-reg{
+		width: 344px;
+		height: 24px;
+		vertical-align: middle;
+		display: block;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+	.icon-safe{
+		width: 20px;
+		height: 22px;
+		background:url(../images/iconAll.png) no-repeat -5px -59px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+	/*提示框*/
+	.find-pwd .err_tip{
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+		border-color: #ffb8b5;
+		background: #ffedec;
+		color: #ff5c5b;
+		padding-left: 12px;
+		display: none;
+	}
+	/*进度条*/
+	.progress-bar{
+		height: 2px;
+		background: #3799db;
+	}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zfgt.orm.MCoinRecord" table="m_coin_record" >
+        <id name="id" type="java.lang.String">
+            <column name="id" length="50" />
+            <generator class="uuid.hex" />
+        </id> 
+        <property name="recordId" type="java.lang.String">
+            <column name="record_id" length="50">
+                <comment>流水号id</comment>
+            </column>
+        </property>             
+        <property name="usersId" type="java.lang.Long">
+            <column name="users_id" default="0">
+                <comment>用户id</comment>
+            </column>
+        </property>
+        <property name="coin" type="java.lang.Long">
+            <column name="coin" length="9">
+                <comment>喵币数量(单位：个数)</comment>
+            </column>
+        </property> 
+        <property name="coinType" type="java.lang.String">
+            <column name="coin_type" length="9">
+                <comment>喵币使用类型</comment>
+            </column>
+        </property>                
+        <property name="type" type="java.lang.String">
+            <column name="type" length="9">
+                <comment>类型</comment>
+            </column>
+        </property> 
+        <property name="status" type="java.lang.String">
+            <column name="status" length="9">
+                <comment>状态</comment>
+            </column>
+        </property>                                       
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property>                                        
+        <property name="note" type="java.lang.String">
+            <column name="note" length="199">
+                <comment>备注</comment>
+            </column>
+        </property> 
+        <property name="totalCoin" type="java.lang.Long">
+            <column name="total_coin" length="9">
+                <comment>当前总喵币</comment>
+            </column>
+        </property>        
+   
+    </class>
+</hibernate-mapping>

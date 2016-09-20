@@ -1,0 +1,47 @@
+
+
+	.center{width:706px;margin:30px 25px 10px; border:2px solid #eeeeee;float:right}
+	.center .top{padding-bottom:20px}
+	.center .top .t_1 li{height:50px;line-height:50px;width:115px;text-align:center;font-size:18px;font-weight:bold;}
+	.center .top .t_2{background:#eeeeee;color:#5a5a5a;height:45px;clear:both}
+	.center .top .t_2 li, .center .top .t_3 li{height:45px;line-height:45px;width:180px;padding-left:15px;float:left;font-size:14px}
+	.center .top .t_2 li input + span{display:inline-block;width:115px;text-align:center}
+	.center .top .t_2 .last, .center .top .t_3 .last{width:180px;padding-left:5px;text-align:left;}
+	.center .top .t_2 li + li, .center .top .t_3 li + li{padding:0;text-align:center;width:110px;}
+	.center .top .t_2 li + .touzi, .center .top .t_3 li + .touzi{width:64px}
+	.center .top .t_2 .shouyi, .center .top .t_3 .shouyi{width:64px;padding-left:15px}
+	.center .top .t_3 li, .center .top .t_3 li + li{height:108px;line-height:108px;}
+	.center .top .t_3 {height:108px;line-height:108px;}
+	.center .top .t_3 li .anquan{display:inline-block;vertical-align:middle;height:74px;padding:20px 0 0 0;margin:0 auto;width:auto}
+	.center .top .t_3 li input{vertical-align:middle}
+	.center .top .t_3 li span{padding-left:5px}
+	.center .top .t_3 li .anquan li{width:50px;height:40px;line-height:40px;padding:0;text-align:center;color:#bdbdbd;font-size:12px}
+	.center .top .t_3 li .anquan li b, .center .top .t_3 li .anquan li s{display:block;margin:0 auto;width:42px;height:42px;background:url("../images/bao.jpg");}
+	.center .top .t_3 li .anquan li s{background:url("../images/shenf.jpg");}
+	.center .bottom {padding-bottom:20px;}
+	.center .bottom .b_1{background:#e1dddd;font-size:14px;height:60px}
+	.center .bottom .heji{background:white;font-size:14px}
+	.center .bottom .b_1 + ul{background:white}
+    .center .bottom .b_1 li, .center .bottom .heji{height:60px;line-height:60px;padding-right:40px;text-align:right}
+	.center .bottom a{float:right;width:195px;height:63px;line-height:63px;background:url("../images/order_tijiao.png");text-align:center;font-size:28px;color:white}
+	.center .bottom .b_1 li .f-24{font-size:24px;color:#ff0000}
+	.center .bottom .b_1 li .f-32{font-size:32px;color:#ff0000}
+	.center table tr td div{display:inline-block}
+	.center table tbody tr{height:108px}
+	.center table tbody tr input{vertical-align:middle;margin-left:5px}
+	.center table tbody tr div{*display: inline}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

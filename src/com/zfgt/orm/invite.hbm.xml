@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zfgt.orm.Invite" table="invite" >
+        <id name="id" type="java.lang.String">
+            <column name="id" length="50" />
+            <generator class="uuid.hex" />
+        </id>
+        <property name="beInvitedId" type="java.lang.Long">
+            <column name="be_invited_id" default="0">
+                <comment>被邀请人id</comment>
+            </column>
+        </property>
+        <property name="inviteId" type="java.lang.Long">
+            <column name="invite_id" default="0">
+                <comment>邀请人id</comment>
+            </column>
+        </property>        
+        <property name="type" type="java.lang.String">
+            <column name="type" length="9">
+                <comment>类型  1 邀请好友）</comment>
+            </column>
+        </property>      
+        <property name="status" type="java.lang.String">
+            <column name="status" length="9">
+                <comment> 状态   0：未投资 1：已投资 </comment>
+            </column>
+        </property>              
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property> 
+        <property name="updateTime" type="java.util.Date">
+            <column name="update_time" length="19" >
+                <comment>修改时间</comment>
+            </column>
+        </property>                                               
+        <property name="note" type="java.lang.String">
+            <column name="note" length="199">
+                <comment>备注</comment>
+            </column>
+        </property>      
+    </class>
+</hibernate-mapping>

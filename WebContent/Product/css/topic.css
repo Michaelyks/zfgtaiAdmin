@@ -1,0 +1,54 @@
+/* CSS Document */
+.topic_banner { height:296px; background-color:#fdc147; }
+.topic_box { background-color:#fa463c; padding:35px 0 100px; }
+.topic_box .rule { height:285px; background:#fff7e5 url(../images/topic_tit.png) no-repeat 0px 0px; width:780px; padding:10px 80px 10px 100px; }
+.topic_box .rule h4 { font:24px/48px "Microsoft Yahei"; color:#ff857e; }
+.topic_box .rule ul { background:url(../images/notice_type.png) no-repeat 0 9px; padding-left:30px; }
+.topic_box .rule li { font:18px/38px "Microsoft Yahei"; }
+.topic_box .rule li span { background-color:#fa463c; color:#fff; font-weight:bold; height:24px; padding:1px 5px; }
+.topic_box .rule li em { color:#fa463c; }
+
+.topic_box .notice { margin-top:55px; width:380px; color:#fff; }
+.topic_box .notice h4 { font:bold 18px/36px "Microsoft Yahei"; }
+.topic_box .notice ul { padding-top:10px; }
+.topic_box .notice li { font:14px/24px "Microsoft Yahei"; }
+.topic_box .notice li span { background-color:#ffeabc; border-radius:2px; padding:1px 5px; color:#fa463c; }
+.topic_box .lottery { width:495px; border-left:solid 1px #fededd; border-bottom:solid 1px #fededd; height:297px; margin-top:55px; }
+.topic_box .lottery li { float:left; width:98px; height:98px; border-top:solid 1px #fededd; border-right:solid 1px #fededd; }
+.topic_box .lottery li.img1 { background-color:#ffeabc; }
+.topic_box .lottery li.img2 { background-color:#ffe19f; }
+.topic_box .lottery li.btn { width:296px; }
+.topic_box .lottery li.btn a { display:block; width:200px; height:54px; background:url(../images/attend_btn.png) no-repeat center; margin:22px auto; }
+.footer { padding-top:0px; }
+
+/*topic_from*/
+.ui_popup .bg { background-color:#000; }
+.ui_popup .topic_from { padding:20px; width:440px; height:310px; margin-top:-155px; margin-left:-240px; }
+.topic_from h2 { height:36px; border-left:solid 3px #fa463c; font:16px/36px "Microsoft Yahei"; color:#333; padding-left:10px; }
+.topic_from h2 a.close { float:right; width:20px; height:20px; background:url(../images/close_btn2.png) no-repeat center; }
+.topic_from .tabnav { margin-top:15px; height:41px; border-bottom:solid 1px #fa463c; padding-left:85px; }
+.topic_from .tabnav span { float:left; width:90px; text-align:center; font:16px/41px "Microsoft Yahei"; color:#666; cursor:pointer; }
+.topic_from .tabnav span.on { border-bottom:solid 4px #fa463c; height:37px; overflow:hidden; }
+.topic_from .login { padding:24px 85px 0; }
+.topic_from .login p { padding-bottom:20px; height:36px; }
+.topic_from .login p input { float:left; height:36px; box-sizing:border-box; border:solid 1px #afafaf; border-radius:3px; padding:8px; width:270px; color:#afafaf; }
+.topic_from .login p.code input { width:140px; }
+.topic_from .login p.code span { float:left; width:60px; height:34px; border:solid 1px #d7d6d8; overflow:hidden; text-align:center; font:16px/34px "Microsoft Yahei"; color:#2554b1; margin-left:10px; display:inline; }
+.topic_from .login p.code a { float:left; font:14px/36px "Microsoft Yahei"; width:54px; text-align:center; }
+.topic_from .login p.btn { height:42px; padding-bottom:0px; }
+.topic_from .login p.btn input { width:130px; height:42px; font:16px/20px "Microsoft Yahei"; color:#fff; border-radius:2px; background-color:#fa463c; border:none; margin-left:70px; display:inline; }
+.topic_from .login p.chk { height:24px; font:12px/24px "Microsoft Yahei"; padding-bottom:0px; padding-left:30px; margin-top:10px; }
+.topic_from .login p.chk input { width:14px; height:14px; margin:5px; }
+.topic_from .login p.chk a { color:#fa463c; }
+.topic_from .verify { padding:24px 85px 0; }
+.topic_from .verify p { padding-bottom:20px; height:36px; }
+.topic_from .verify p input { float:left; height:36px; box-sizing:border-box; border:solid 1px #afafaf; border-radius:3px; padding:8px; width:270px; color:#afafaf; }
+.topic_from .verify p.code input { width:160px; }
+.topic_from .verify p.code span { float:left; height:36px; overflow:hidden; text-align:center; font:14px/36px "Microsoft Yahei"; color:#646464; margin-left:10px; display:inline; }
+.topic_from .verify p.code a { float:left; font:14px/36px "Microsoft Yahei"; margin-left:5px; background-color:#13b5b1; height:36px; width:105px; text-align:center; color:#fff; }
+.topic_from .verify p.btn { padding-bottom:10px; height:42px; }
+.topic_from .verify p.btn input { width:130px; height:42px; font:16px/20px "Microsoft Yahei"; color:#fff; border-radius:2px; background-color:#fa463c; border:none; margin-left:70px; display:inline; }
+.topic_from .verify p.exp { text-align:center; font:12px/24px "Microsoft Yahei"; color:#666; }
+.topic_from .succeed .txt { padding:35px; text-align:center; font:18px/36px "Microsoft Yahei"; }
+.topic_from .succeed p.btn { padding-bottom:10px; height:42px; }
+.topic_from .succeed p.btn input { width:130px; height:36px; font:16px/20px "Microsoft Yahei"; color:#fff; border-radius:2px; background-color:#fa463c; border:none; display:inline; }

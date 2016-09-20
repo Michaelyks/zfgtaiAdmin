@@ -1,0 +1,14 @@
+.find-pwd li{
+	display: block;
+	box-sizing: border-box;
+}
+.find-pwd input{
+	width: 320px;
+}
+.find-pwd .ver input{
+	width: 236px;
+}
+.find-pwd .err_tip{
+	width: 390px;
+	padding-left: 6px;
+}

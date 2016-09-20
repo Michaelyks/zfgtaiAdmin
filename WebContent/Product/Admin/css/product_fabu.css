@@ -1,0 +1,20 @@
+
+	.main p{text-align:center;font-size:14px;padding:10px 0;font-weight:bold}
+	.main p img{width:30px;height:30px;vertical-align:middle;padding-right:20px}
+	.main table{width:600px;margin: 0 auto;border:1px solid #ddd;border-bottom:none 0;}
+	.main table td{border-bottom:1px solid #ddd;width:20%;text-align:right}
+	.main table tr td + td{border-left:1px solid #ddd;width:80%;padding-left:10px;text-align:left}
+	.mian em{padding:0 10px}
+	.main table tr td .miaoshu{height:100px;line-height:100px;text-align:center}
+	.main table .first_list td{text-align:center}
+	.main table .first_list td input{width:50px;text-align:center}
+	.main .tijiao{text-align:center;font-size:20px;display:block;width:200px;height:40px;line-height:40px;margin:20px auto;background:red;color:white;border:1px solid #ddd }
+
+ 
+
+
+
+
+
+
+

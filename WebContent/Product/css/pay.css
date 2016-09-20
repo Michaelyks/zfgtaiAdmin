@@ -1,0 +1,47 @@
+/* CSS Document */
+.pay_box { height:700px; }
+.pay_box .amount { font:14px/24px "Microsoft Yahei"; padding:20px 0 10px; }
+.pay_box .form { }
+.pay_box .form p { height:32px; font:14px/32px "Microsoft Yahei"; }
+.pay_box .form p label { float:left; }
+.pay_box .form p label input { float:left; width:14px; height:14px; margin:10px 8px 0 0; }
+.pay_box .form p span input { float:left; width:92px; height:32px; border:none; background:url(../images/other_btn_bg.png) no-repeat center; color:#fff; cursor:pointer; font:16px/30px "Microsoft Yahei"; }
+.pay_box .form p.btn { padding-top:10px; }
+.pay_box .form p input.all,.pay_box .form p input.part { float:left; margin-right:6px; width:92px; height:32px; font:16px/30px "Microsoft Yahei"; color:#fff; border:none; cursor:pointer; }
+.pay_box .form p input.all { background:url(../images/other_btn_bg.png) no-repeat center; }
+.pay_box .form p input.part { background:url(../images/btn4_bg.png) no-repeat center; }
+.pay_box .notice { padding:20px 0; }
+.pay_box .notice p { font:14px/24px "Microsoft Yahei"; text-indent:-70px; padding-left:70px; color:#575757; }
+
+/*pay_pop*/
+.pay_pop { position:fixed; width:100%; height:100%; top:0px; left:0px; z-index:999; color:#575757; display:none; }
+.pay_pop .bg { position:absolute; width: 100%; height: 100%; background-color: #e7ecee; opacity: 0.6; filter: Alpha(Opacity=60); top:0px; left:0px; z-index:1; }
+.pay_pop .box { position:fixed; height:320px; width:490px; top:50%; left:50%; margin-left:-247px; margin-top:-160px; border:solid 2px #b4b4b4; background-color:#fff; z-index:2; border-radius:5px; }
+.pay_pop .tit { height:62px; border-bottom:solid 2px #33b5e5; padding:0 15px; font:16px/62px "Microsoft Yahei"; color:#33b5e5; }
+.pay_pop .tit span { float:right; color:#575757; cursor:pointer; }
+.pay_pop .form { text-align:center; height:32px; font:16px/32px "Microsoft Yahei"; color:#575757; padding:20px 0; }
+.pay_pop .form input.num { height:20px; padding:5px; border:solid 1px #b4b4b4; width:100px; color:#a2a2a2; }
+.pay_pop .form input.max { background:url(../images/topup_btn_bg.png) no-repeat center; width:92px; height:32px; border:none; color:#fff; cursor:pointer; }
+.pay_pop .explain { padding:0 40px; font:16px/24px "Microsoft Yahei"; }
+.pay_pop .explain span { color:#d24740; }
+.pay_pop .tips { padding:15px 0 0; text-align:center; font:16px/24px "Microsoft Yahei"; }
+.pay_pop .tips span { color:#d24740; }
+.pay_pop .tips em { font-size:14px; }
+.pay_pop .erro { font:12px/20px "Microsoft Yahei"; padding-bottom:15px; color:#d24740; text-align:center; }
+.pay_pop .btn { text-align:center; }
+.pay_pop .btn input { width:93px; height:34px; border:none; margin:0 10px; font:18px/32px "Microsoft Yahei"; color:#fff; cursor:pointer; }
+.pay_pop .btn input.cancel { background:url(../images/cancel_btn_bg2.png) no-repeat center; }
+.pay_pop .btn input.confirm { background:url(../images/confirm_btn_bg.png) no-repeat center; }
+
+.pay_tips_pop { position:fixed; width:100%; height:100%; top:0px; left:0px; z-index:999; color:#575757; }
+.pay_tips_pop .bg { position:absolute; width: 100%; height: 100%; background-color: #e7ecee; opacity: 0.6; filter: Alpha(Opacity=60); top:0px; left:0px; z-index:1; }
+.pay_tips_pop .box { position:fixed; height:260px; width:400px; top:50%; left:50%; margin-left:-202px; margin-top:-132px; border:solid 2px #b4b4b4; background-color:#fff; z-index:2; border-radius:5px; }
+.pay_tips_pop .tit { height:62px; border-bottom:solid 2px #33b5e5; padding:0 15px; font:16px/62px "Microsoft Yahei"; color:#33b5e5; }
+.pay_tips_pop .tit span { float:right; color:#575757; cursor:pointer; }
+.pay_tips_pop .notice { padding:25px 30px 35px; font:16px/24px "Microsoft Yahei"; }
+.pay_tips_pop .notice p { text-indent:2em; }
+.pay_tips_pop .notice p span { color:#d24740; }
+.pay_tips_pop .btn { text-align:center; }
+.pay_tips_pop .btn input { width:93px; height:34px; border:none; margin:0 10px; font:18px/32px "Microsoft Yahei"; color:#fff; cursor:pointer; }
+.pay_tips_pop .btn input.cancel { background:url(../images/cancel_btn_bg2.png) no-repeat center; }
+.pay_tips_pop .btn input.confirm { background:url(../images/confirm_btn_bg.png) no-repeat center; }

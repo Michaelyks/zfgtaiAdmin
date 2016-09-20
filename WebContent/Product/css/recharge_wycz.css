@@ -1,0 +1,77 @@
+	/*此样式表为在线支付、找回密码、收益计算器页面所用*/
+	.pay_title{width:100%;background:#36c500;font-size:20px;color:#fff;text-align:center}
+	.pay_title .layout{height:50px;line-height:50px;background:url("../images/interest_jinbi.png") no-repeat 360px center;}
+	.pay_yuer{padding:30px;background:#f5f5f5;color:#5e5e5e;font-size:14px}
+	.pay_yuer p{padding-bottom:10px}
+	.pay_yuer p a:first-child{color:#666666;padding:0 20px 0 5px}
+	.pay_yuer p a{color:#ff5256;font-size:16px;font-weight:bold;padding-left:5px}
+	.pay_yuer .pay_jiner{padding-right:25px}
+	.pay_yuer .pay_jiner label{vertical-align:middle}
+	.pay_yuer .pay_jiner input{vertical-align:middle;width:170px;padding:3px 10px;margin:0 5px;font-size:16px}
+	.pay_yuer .pay_jiner + a:first-child{color:#ff5256;padding:0 10px}
+	.pay_yuer .cz_now{padding:3px 5px;border:1px solid #dbdbdb;color:#36c500;border-radius:5px;font-size:14px;margin-left:15px}
+	.pay_hongbao{/* background:#fafafa; *//* padding:0 40px; */border:1px solid #e6e6e6;overflow:hidden}
+	.pay_hongbao .touzijuan{padding:5px 0;font-size:14px;}
+	.pay_hongbao .touzijuan a{color:#36c500;font-size:18px;padding:0 10px}
+	.pay_hongbao .payway{height:50px;width: 989px;background:#f5f5f5;border:1px solid #e6e6e6;}
+	.pay_hongbao .payway li{float:left;width:100px;text-align:center;line-height:48px;font-size:14px;color:#4d4d4d;border-top:2px solid #f5f5f5;cursor:pointer;position:relative;top:1px}
+	.pay_hongbao .payway li:first-child{border-left:none 0;}
+	.pay_hongbao .payway .onway{background:#fff;color:#f5493c;border-color:#f5493c;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6}
+	.pay_hongbao .hongbao_cc{display:none;padding:20px 0 20px 25px}
+	.pay_hongbao .hongbao_cc li{float:left;width: 192px;text-align:center;padding:10px 0;position:relative}
+	.pay_hongbao .hongbao_cc li img{border:1px solid #E6E6E6;border-radius:5px;margin-left: -26px;}
+	.pay_hongbao .hongbao_cc .chooseimg{position:absolute;top:10px;right:29px;border:none 0;}
+	.pay_hongbao .hongbao_cc li .on_bank{border-color:#3dc308}
+	.bank .touzijuan a{color:#ff5256}
+	.pay_now{margin:40px auto 50px;cursor:pointer;display:block;width:320px;height:48px;line-height:48px;font-size:14px;color:#fff;text-align:center;background:#ff7e00;border-radius:5px}
+	
+	.pay-tx {margin:15px 0px 15px 40px; cursor: pointer; display: block; width: 115px; height: 38px; line-height:38px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: #f5493c;
+    border-radius: 5px;}
+	
+	.findpassword{margin:20px auto 0;padding: 40px 50px;width:1100px;background:#fff}
+	.findpassword .find_step1 .step{width:880px;margin:0 auto;background:url("../images/reg_step1.png");height:32px}
+	.findpassword .find_step1 .step li{width:50%;float:left;height:32px;line-height:32px;color:#fff;text-align:center}
+	.findpassword .find_step1 .step li + li{color:#5e5e5e}
+	.findpassword .find_step1 .find_mima{width:420px;margin:0 auto;padding-top:50px}
+	.findpassword .find_step1 .find_mima li{position:relative}
+	.findpassword .find_step1 .find_mima li .err_tip{display:block;height:30px;line-height:30px;color:#f5493c;padding-left:90px}
+	.findpassword .find_step1 .find_mima li label{display:block;*display:inline;display:inline-block;width:80px;text-align:right;padding-right:10px;vertical-align:middle}
+	.findpassword .find_step1 .find_mima input{width:175px;padding:8px 35px 8px 10px;border:1px solid #dbdbdb;border-radius:5px;vertical-align:middle}
+	.findpassword .find_step1 .find_mima p{padding:10px 0 30px 90px;font-size:20px;color:#ff484c}
+	.findpassword .find_step1 .find_mima li .find_next{cursor:pointer;display:block;width:220px;height:40px;line-height:40px;font-size:16px;text-align:center;background:#f5493c;border-radius:5px;margin:20px 0 0 90px;color:#fff}
+	.tengxunyun{width:1200px;margin:0 auto;background:#fff;padding: 10px 0 20px;border-top: 1px solid #ededed;text-align: center;font-size: 14px; color: #b2b2b2;}
+	.tengxunyun img{vertical-align:middle;padding-right: 20px;}
+	.tengxunyun span{vertical-align:middle}
+	.border_bg{width:1200px;margin:0 auto 20px;height:5px;background: url("../images/border_bg.jpg") repeat-x left bottom;}
+    .findpassword .find_step1 .find_mima li .find_ver{left:231px;display:block;*display:inline;display:inline-block;width:80px;height:32px;line-height:32px;text-align:center;background:#f29b0f;color:#fff;position:absolute}
+	.findpassword .find_step1 .find_mima .ver_inp input{background:url("../images/find_password_messege.png") no-repeat 190px center}
+	.jisuanqi{margin:20px auto;background:#fff}
+	.jisuanqi .jsq_title{border:1px solid #e6e6e6;position:relative;margin:30px 0}
+	.jisuanqi .jsq_title div{position:absolute;top:-15px;left:0;font-weight:bold}
+	.jisuanqi .jsq_title div a{margin-right:15px;display:block;*display:inline;display:inline-block;width:64px;text-align:center;height:30px;line-height:30px;color:#999999;font-size:14px;background:#e2e3e3;border-radius:3px}
+	.jisuanqi .jsq_title div span{font-size:18px;display:block;*display:inline;display:inline-block;padding:0 5px;background:#fff}
+	.jisuanqi form{width:500px;margin:0 auto;padding-top:20px}
+	.jisuanqi form ul li{padding-bottom:30px;font-size:16px;}
+	.jisuanqi form ul li label{display:block;*display:inline;display:inline-block;width:125px;text-align:right;padding-right:10px;vertical-align:middle}
+	.jisuanqi form ul li input{padding:10px;border:1px solid #dbdbdb;border-radius:5px;width:230px;vertical-align:middle;margin-right:10px}
+	.jisuanqi form ul li select{border:1px solid #dbdbdb;padding:5px;border-radius:5px;}
+	.jisuanqi form ul .huaik{color:#999999;font-size:12px;vertical-align:middle}
+	.jisuanqi form ul .jisuan{cursor:pointer;margin:0 20px 0 125px;display:block;*display:inline;display:inline-block;width:120px;height:40px;line-height:40px;text-align:center;color:#fff;font-size:16px;background:#F5493C;border-radius:5px;vertical-align:middle}
+	.jisuanqi form ul .jisuan:hover{text-decoration:underline}
+	.jisuanqi form ul li input[type="reset"]{width:120px;height:40px;line-height:40px;color:#5e5e5e;background:#f5f5f5;border:1px solid #e6e6e6;font-size:16px;padding:0;vertical-align:middle;cursor:pointer}
+	.jisuanqi form ul li input[type="reset"]:hover{text-decoration:underline}
+	.jisuanqi .result{width:600px;margin:0 auto;background:#fffdef;border:1px solid #ffbb76;padding:20px 50px;font-size:14px}
+	.jisuanqi .result h4{font-size:16px;color:#5e5e5e;padding-bottom:10px}
+	.jisuanqi .result a{color:#F5493C;padding:0 5px}
+	.jisuanqi .result p{padding-bottom:5px}
+	
+	
+	
+	
+	
+	
+	

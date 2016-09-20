@@ -1,0 +1,50 @@
+/* CSS Document */
+.my_wallet { border:solid 1px #b4b4b4; margin-top:25px; }
+.my_wallet .total dl { height:115px; border-bottom:solid 1px #b4b4b4; }
+.my_wallet .total dt { float:left; width:290px; height:85px; padding:15px; }
+.my_wallet .total dd { float:left; width:163px; height:85px; border-left:solid 1px #b4b4b4; padding:15px; }
+.my_wallet .total h3 { font:16px/24px "Microsoft Yahei"; color:#3e3e3c; }
+.my_wallet .total dt p { color:#d24740; font:12px/45px "Microsoft Yahei"; height:40px; overflow:hidden; margin-top:15px; }
+.my_wallet .total dt p span { font-size:30px; }
+.my_wallet .total dd p { font:12px/24px "Microsoft Yahei"; color:#4e4e4e; margin-top:5px; }
+.my_wallet .total dd p.bank { background:url(../images/bank_ico3.png) no-repeat left center; padding-left:20px; }
+.my_wallet .total dd p.btn { height:24px; }
+.my_wallet .total dd p.btn a { float:left; display:block; font:12px/24px "Microsoft Yahei"; margin-right:10px; color:#08c; }
+.my_wallet .total dd p.btn a.bor { border:solid 1px #afafaf; border-radius:2px; color:#3e3e3c; padding:0 10px; }
+.my_wallet .info { float:left; width:395px; border-right:dashed 1px #b4b4b4; padding:0 25px 15px; }
+.my_wallet .info dl { padding:10px 0; color:#3e3e3c; }
+.my_wallet .info dt { font:16px/24px "Microsoft Yahei"; height:24px; }
+.my_wallet .info dd { height:30px; font:12px/30px "Microsoft Yahei"; }
+.my_wallet .info dd p { float:left; width:120px; }
+.my_wallet .info dd p span { font-size:18px; }
+.my_wallet .info dd a.cbtn { float:left; font:12px/22px "Microsoft Yahei"; margin-right:10px; display:inline; margin-top:3px; border:solid 1px #b4b4b4; padding:0 10px; }
+.my_wallet .info dd a.tbtn { float:left; font:12px/22px "Microsoft Yahei"; margin-right:10px; display:inline; margin-top:3px; border:solid 1px #b4b4b4; padding:0 10px; }
+.my_wallet .info dd a.zbtn { float:left; font:12px/22px "Microsoft Yahei"; margin-right:10px; display:inline; margin-top:3px; border:solid 1px #d66500; padding:0 10px; background-color:#f57403; color:#fff; }
+.my_wallet .info dd a.tbtn { float:left; font:12px/22px "Microsoft Yahei"; margin-right:10px; display:inline; margin-top:3px; border:solid 1px #b4b4b4; padding:0 10px; }
+.my_wallet .info dd a.sbtn { float:left; font:12px/22px "Microsoft Yahei"; margin-right:10px; display:inline; margin-top:3px; border:solid 1px #b4b4b4; padding:0 10px; }
+.my_wallet .info dt i { float:left; width:18px; height:18px; background:url(../images/tips_btn.png) no-repeat 0px 0px; margin:3px 5px; cursor:pointer; }
+.my_wallet .info dt i.hover { background-position:0px -18px; }
+.my_wallet .info dt span { float:left; padding-right:10px; }
+.my_wallet .info dt .tips { position:absolute; border:solid 1px #ccc; background-color:#fff; padding:10px; font:12px/18px "sunmin"; display:none; }
+.my_wallet .info dt .tips span { position:absolute; top:-8px; left:50%; margin-left:-7px; background:url(../images/arrow_top.png) no-repeat center; width:14px; height:8px; }
+.my_wallet .gain { margin-left:446px; height:152px; padding:20px; position:relative; }
+.my_wallet .gain h4 { padding:20px; height:24px; text-align:center; font:16px/24px "Microsoft Yahei"; }
+.my_wallet .gain h4 i { display:inline-block; width:18px; height:18px; background:url(../images/tips_btn.png) no-repeat 0px 0px; cursor:pointer; }
+.my_wallet .gain h4 i.hover { background-position:0px -18px; }
+.my_wallet .gain .tips { position:absolute; border:solid 1px #ccc; background-color:#fff; padding:10px; font:12px/18px "sunmin"; display:none; }
+.my_wallet .gain .tips span { position:absolute; top:-8px; left:50%; margin-left:-7px; background:url(../images/arrow_top.png) no-repeat center; width:14px; height:8px; }
+.my_wallet .gain p { text-align:center; font:12px/42px "Microsoft Yahei"; color:#d24740; }
+.my_wallet .gain p span { font-size:30px; }
+.my_wallet .gain a { position:absolute; right:10px; bottom:10px; font:12px/24px "Microsoft Yahei"; }
+.my_wallet .earne { margin-left:446px; height:152px; padding:20px; position:relative; border-top:dashed 1px #b4b4b4; }
+.my_wallet .earne h4 { padding:20px; height:24px; text-align:center; font:16px/24px "Microsoft Yahei"; }
+.my_wallet .earne h4 i { display:inline-block; width:18px; height:18px; background:url(../images/tips_btn.png) no-repeat 0px 0px; cursor:pointer; }
+.my_wallet .earne h4 i.hover { background-position:0px -18px; }
+.my_wallet .earne .tips { position:absolute; border:solid 1px #ccc; background-color:#fff; padding:10px; font:12px/18px "sunmin"; display:none; }
+.my_wallet .earne .tips span { position:absolute; top:-8px; left:50%; margin-left:-7px; background:url(../images/arrow_top.png) no-repeat center; width:14px; height:8px; }
+.my_wallet .earne p { text-align:center; font:12px/42px "Microsoft Yahei"; color:#d24740; }
+.my_wallet .earne p span { font-size:30px; }
+.my_wallet .earne a { position:absolute; right:10px; bottom:10px; font:12px/24px "Microsoft Yahei"; }
+.invite_btn { height:76px; padding-top:25px; }
+.invite_btn a { float:right; height:76px; width:312px; background:url(../images/invite_btn.png) no-repeat center top; }
+.invite_btn a:hover { background-position:center bottom; }

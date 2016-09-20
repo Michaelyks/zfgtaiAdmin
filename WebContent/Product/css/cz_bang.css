@@ -1,0 +1,33 @@
+
+/* 此样式表为提现页面和充值页面所公用*/
+.chongz	input{border:1px solid #ddd;width:200px;color:#666;outline:none;padding:4px 0 4px 10px;vertical-align:middle}
+	.chongz{padding-top:15px;display:none;background:#ECECEC}
+	.chongz span{display:inline-block;}
+	.chongz li{height:35px;line-height:35px;font-size:15px;font-family:"Microsoft Yahei"}
+	.chongz .list{width:100px;text-align:right;padding-right:10px}
+	.chongz .bang_list a{margin-left:10px;font-size:14px;color:#80ADD8;cursor:pointer}
+	.chongz .list + span{background:white;color:#666;width:200px;height:28px;line-height:28px;position:relative;padding-left:10px;border:1px solid #ddd;vertical-align:middle;}
+	.chongz .bang_list{float:none;width:auto;position:relative}
+	.chongz .bang_list .b_list{display:none;background:white;position:absolute;top:28px;left:10px;width:300px;border:1px solid #85B9DD}
+	.chongz .bang_list .b_list ul{padding:5px;color:#3FA9F2}
+	.chongz .bang_list .b_list ul li{float:left;margin-bottom:0}
+	.chongz .bang_list .b_list ul li img{vertical-align:middle;padding:0 5px}
+	.chongz .list + span input{width:200px;padding-left:10px;position:absolute;left:0;margin-top:4px;background:transparent}
+	.chongz .next{width:212px;height:30px;line-height:30px;text-align:center;display:block;margin-left:115px;background:#da2c36;color:white;margin-top:10px}
+	.chongz .name{font-size:14px;text-align:left;width:175px;height:30px;line-height:30px;padding-left:25px;border:1px solid red;display:none;float:none;margin-left:117px;margin-top:-8px;background:url("../images/gantan.png") no-repeat 5px 5px white;color:red;}
+	
+	
+	.cz_info{border:1px solid #ddd;padding:20px 0;display:block}
+	.cz_info li{margin-bottom:10px}
+	.cz_info li span{float:none;display:inline-block;width:100px;text-align:right}
+	.cz_info li span + span{text-align:left}
+	.cz_info li .add_bank{width:100px;height:30px;line-height:30px;display:inline-block;border:1px dashed #ddd;vertical-align:middle;text-align:center}
+	.cz_info li .add_bank a{color:#80ADD8}
+	.cz_info li .ver{width:100px;height:32px;line-height:32px;text-align:center;background:#6699CD;border-radius:6px;display:block;margin-left:106px;color:white}
+	.cz_info li .yangz{position:relative;border:1px solid #ddd;border-radius:6px;width:96px;height:24px;line-height:24px;display:inline-block;padding-left:5px}
+	.cz_info li .yangz input{width:86px;position:absolute;height:24px;left:0;border:none 0;background:transparent;outline:none;padding-left:5px;}
+	.cz_info li input[type="checkbox"]{vertical-align:middle;margin:-2px 5px 0 106px}
+	.cz_info li input[type="checkbox"] + a{color:#80ADD8}
+	.cz_info .next2{width:auto;padding:0 5px;height:30px;line-height:30px;text-align:center;color:white;background:#da2c36;display:inline-block;border-radius:6px;margin-left:106px}
+	
+	.mainright .wdzh{padding-bottom:30px}

@@ -1,0 +1,14 @@
+.text-ct { text-align: center; }
+.text-le { text-align: left;}
+.text-ri { text-align: right;}
+.mb30 { margin-bottom: 30px;}
+
+.wel-box {display: flex;}
+.wel-box .wel-block { flex: 1;}
+.list-table { text-align: center; width: 100%; text-shadow:none;}
+.list-table tr td,.list-table tr th { height: 30px;}
+.list-table a{color:#3e91d5; font-weight:normal; text-decoration: none; text-shadow:none;}
+.table-xq tr td:nth-child(2) { text-align: left;}
+
+.list-table tr:nth-child(odd) { background: #e5e5e5;}
+.list-table tr:nth-child(even) { background: #d2d2d2;}

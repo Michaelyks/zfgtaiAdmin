@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- author: 覃文勇 createTime 2015-9-14下午2:45:13 -->
+<hibernate-mapping>
+	<class name="com.zfgt.orm.BackStatsOperateDay" table="back_stats_operate_day">
+
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="identity" />
+		</id>
+		<property name="date" type="java.util.Date">
+			<column name="date" length="19" not-null="true">
+				<comment>插入时间</comment>
+			</column>
+		</property>
+		<property name="registPlatform" type="java.lang.Integer">
+			<column name="registPlatform" default="0">
+				<comment> '注册平台 0web 1android 2ios 3weixin'</comment>
+			</column>
+		</property>
+
+		<property name="regUserSum" type="java.lang.Integer">
+			<column name="regUserSum" default="0">
+				<comment> '注册人数'</comment>
+			</column>
+		</property>
+		<property name="bindBankUserSum" type="java.lang.Integer">
+			<column name="bindBankUserSum" default="0">
+				<comment> '绑定银行卡用户'</comment>
+			</column>
+		</property>
+		<property name="activateUserSum" type="java.lang.Integer">
+			<column name="activateUserSum" default="0">
+				<comment> '激活用户人数'</comment>
+			</column>
+		</property>
+		<property name="investUserSum" type="java.lang.Integer">
+			<column name="investUserSum" default="0">
+				<comment> '投资人数'</comment>
+			</column>
+		</property>
+		<property name="firstInvestUserSum" type="java.lang.Integer">
+			<column name="firstInvestUserSum" default="0">
+				<comment> '首投人数'</comment>
+			</column>
+		</property>
+		<property name="reInvestUserSum" type="java.lang.Integer">
+			<column name="reInvestUserSum" default="0">
+				<comment> '复投人数'</comment>
+			</column>
+		</property>
+		<property name="investCount" type="java.lang.Integer">
+			<column name="investCount" default="0">
+				<comment> '投资次数'</comment>
+			</column>
+		</property>
+		<property name="firstInvestCount" type="java.lang.Integer">
+			<column name="firstInvestCount" default="0">
+				<comment> '首投次数'</comment>
+			</column>
+		</property>
+
+		<property name="copiesSum" type="java.lang.Integer">
+			<column name="copiesSum" default="0">
+				<comment> '购买份数'</comment>
+			</column>
+		</property>
+		<property name="reInvestCount" type="java.lang.Integer">
+			<column name="reInvestCount" default="0">
+				<comment> '复投次数'</comment>
+			</column>
+		</property>
+
+
+		<property name="investCentSum" type="java.lang.Double">
+			<column name="investCentSum" default="0">
+				<comment> '投资金额统计'</comment>
+			</column>
+		</property>
+		<property name="couponCentSum" type="java.lang.Double">
+			<column name="couponCentSum" default="0">
+				<comment> '投资劵金额统计'</comment>
+			</column>
+		</property>
+		<property name="firstInvestCentSum" type="java.lang.Double">
+			<column name="firstInvestCentSum" default="0">
+				<comment> '首投金额统计'</comment>
+			</column>
+		</property>
+		<property name="reInvestCentSum" type="java.lang.Double">
+			<column name="reInvestCentSum" default="0">
+				<comment> '复投金额统计'</comment>
+			</column>
+		</property>
+		<property name="avgInvestCentSum" type="java.lang.Double">
+			<column name="avgInvestCentSum" default="0">
+				<comment> '人均投资总额'</comment>
+			</column>
+		</property>
+		<property name="repayPrincipalCentSum" type="java.lang.Double">
+			<column name="repayPrincipalCentSum" default="0">
+				<comment> '还款本金统计'</comment>
+			</column>
+		</property>
+		<property name="repayInterestCentSum" type="java.lang.Double">
+			<column name="repayInterestCentSum" default="0">
+				<comment> '还款利息'</comment>
+			</column>
+		</property>
+		<property name="rechargeCount" type="java.lang.Integer">
+			<column name="rechargeCount" default="0">
+				<comment> '充值次数'</comment>
+			</column>
+		</property>
+		<property name="rechargeUserSum" type="java.lang.Integer">
+			<column name="rechargeUserSum" default="0">
+				<comment> '充值人数'</comment>
+			</column>
+		</property>
+		<property name="rechargeCentSum" type="java.lang.Double">
+			<column name="rechargeCentSum" default="0">
+				<comment> '充值金额'</comment>
+			</column>
+		</property>
+		<property name="avgRechargeCentSum" type="java.lang.Double">
+			<column name="avgRechargeCentSum" default="0">
+				<comment> '平均充值金额'</comment>
+			</column>
+		</property>
+
+		<property name="withdrawCount" type="java.lang.Integer">
+			<column name="withdrawCount" default="0">
+				<comment> '提现次数'</comment>
+			</column>
+		</property>
+		<property name="withdrawUserSum" type="java.lang.Integer">
+			<column name="withdrawUserSum" default="0">
+				<comment> '提现用户人数'</comment>
+			</column>
+		</property>
+		<property name="withdrawCentSum" type="java.lang.Double">
+			<column name="withdrawCentSum" default="0">
+				<comment> '提现总额'</comment>
+			</column>
+		</property>
+		<property name="successWithdrawCount" type="java.lang.Integer">
+			<column name="successWithdrawCount" default="0">
+				<comment> '成功提现次数'</comment>
+			</column>
+		</property>
+		<property name="successWithdrawUserSum" type="java.lang.Integer">
+			<column name="successWithdrawUserSum" default="0">
+				<comment> '成功提现人数'</comment>
+			</column>
+		</property>
+		<property name="successWithdrawCentSum" type="java.lang.Double">
+			<column name="successWithdrawCentSum" default="0">
+				<comment> '成功提现总额'</comment>
+			</column>
+		</property>
+
+
+		<property name="sameDaySuccessWithdrawCount" type="java.lang.Integer">
+			<column name="sameDaySuccessWithdrawCount" default="0">
+				<comment> '当天成功提现次数'</comment>
+			</column>
+		</property>
+		<property name="sameDaySuccessWithdrawCentSum" type="java.lang.Double">
+			<column name="sameDaySuccessWithdrawCentSum" default="0">
+				<comment> '当天成功提现总额'</comment>
+			</column>
+		</property>
+
+		<property name="todayWithdrawNoArrivalCount" type="java.lang.Integer">
+			<column name="todayWithdrawNoArrivalCount" default="0">
+				<comment> '当天提现未到账的笔数'</comment>
+			</column>
+		</property>
+		<property name="todayWithdrawNoArrivalCentSum" type="java.lang.Double">
+			<column name="todayWithdrawNoArrivalCentSum" default="0">
+				<comment> '当天提现没到账的金额'</comment>
+			</column>
+		</property>
+
+		<property name="yesterdayWithdrawTodayArrivalCount" type="java.lang.Integer">
+			<column name="yesterdayWithdrawTodayArrivalCount" default="0">
+				<comment> '昨天提现今天到账笔数'</comment>
+			</column>
+		</property>
+		<property name="yesterdayWithdrawTodayArrivalCentSum" type="java.lang.Double">
+			<column name="yesterdayWithdrawTodayArrivalCentSum" default="0">
+				<comment> '昨天提现今天到账金额'</comment>
+			</column>
+		</property>
+
+		<property name="notSameDayWithdrawTodayArrivalCount" type="java.lang.Integer">
+			<column name="notSameDayWithdrawTodayArrivalCount" default="0">
+				<comment> '非今天提现但今天到账笔数'</comment>
+			</column>
+		</property>
+		<property name="notSameDayWithdrawTodayArrivalCentSum" type="java.lang.Double">
+			<column name="notSameDayWithdrawTodayArrivalCentSum" default="0">
+				<comment> '非今天提现但今天到账金额'</comment>
+			</column>
+		</property>
+
+		<property name="reInvestRate" type="java.lang.Double">
+			<column name="reInvestRate" default="0">
+				<comment> '复投率'</comment>
+			</column>
+		</property>
+		<property name="regInvestUserSum" type="java.lang.Integer">
+			<column name="regInvestUserSum" default="0">
+				<comment> '注册投资人数'</comment>
+			</column>
+		</property>
+		<property name="regInvestCentSum" type="java.lang.Double">
+			<column name="regInvestCentSum" default="0">
+				<comment> '注册投资总额'</comment>
+			</column>
+		</property>
+
+		<property name="regInvestRate" type="java.lang.Double">
+			<column name="regInvestRate" default="0">
+				<comment> '注册投资转换率'</comment>
+			</column>
+		</property>
+		<property name="newTwoInvestCount" type="java.lang.Integer">
+			<column name="newTwoInvestCount" default="0">
+				<comment> '新增二次投资次数'</comment>
+			</column>
+		</property>
+
+
+		<property name="stillBalanceProductCentSum" type="java.lang.Double">
+			<column name="stillBalanceProductCentSum" default="0">
+				<comment> '待结算产品总额'</comment>
+			</column>
+		</property>
+
+		<property name="stillBalanceUserCentSum" type="java.lang.Double">
+			<column name="stillBalanceUserCentSum" default="0">
+				<comment> '待结算用户总额'</comment>
+			</column>
+		</property>
+
+		<property name="dueThreeDayProductCentSum" type="java.lang.Double">
+			<column name="dueThreeDayProductCentSum" default="0">
+				<comment> '3天内到期产品总额'</comment>
+			</column>
+		</property>
+
+		<property name="dueThreeDayUserCentSum" type="java.lang.Double">
+			<column name="dueThreeDayUserCentSum" default="0">
+				<comment> '3天内到期用户总额'</comment>
+			</column>
+		</property>
+
+		<property name="dueNoBalanceCentSum" type="java.lang.Double">
+			<column name="dueNoBalanceCentSum" default="0">
+				<comment> '已到期未结算金额'</comment>
+			</column>
+		</property>
+
+		<property name="newTwoInvestCentSum" type="java.lang.Double">
+			<column name="newTwoInvestCentSum" default="0">
+				<comment> '新增二次投资总额'</comment>
+			</column>
+		</property>
+
+	</class>
+</hibernate-mapping>

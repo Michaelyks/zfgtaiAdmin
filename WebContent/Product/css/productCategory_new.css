@@ -1,0 +1,42 @@
+
+	.main .product{position:relative;height:995px;}
+	.main .empty,.main .empty>div{height:600px;background:#FFF;margin:30px 0;}
+	.main .empty>div{background:url("../images/index_wujilu.png") no-repeat center center;}
+	.main .product>ul{position:relative;height:900px;overflow:hidden;}
+	.main .product .product_show{background:#FFF;width:380px;height:420px;margin-left:30px;margin-top:30px;font-size:16px;position:relative;}
+	.main .product .product_show>div{width:380px;height:420px;position:absolute;top:0}
+	.main .product .product_show1{margin-left:0;}
+	.main .product .product_show .title{text-align:center;margin-top:30px;}
+	.main .product .product_show>div>ul{border-bottom:1px dashed #ccc;width:295px;height:98px;padding-top:35px;padding-bottom:7px;margin:0 39px 22px;}
+	.main .product .product_show .rate{height:75px;width:147px;text-align:right;}
+	.main .product .product_show .rate1{text-align:left;}
+	.main .product .product_show .rate .text_bt{bottom:12px;}
+	.main .product .product_show .rate .text_bt1{bottom:20px;}
+	.main .product .product_show .rate .text_bt2{bottom:0px;left:0;}
+	.main .product .product_show .jine{width:295px;height:35px;line-height:35px;margin:0 40px;}
+	.main .product .product_show .jine .lf{display:inline-block;width:100px;}
+	.main .product .product_show .jine .rt{display:inline-block;width:178px;text-align:right;}
+	.main .product .product_show .choose{width:270px;margin:20px 55px;}
+	.main .product .product_show .zhenxuan{margin-left:35px;;padding-left:25px;font-size:14px;width:202px;color:#888;margin:0 auto;background:url("../images/index_dunpai.jpg") no-repeat left center;}
+	
+	.main .product .new{background:url("../images/new.png") no-repeat right top;}
+	.main .product .saleout{background:url("../images/saleout.png") no-repeat right top;}
+	.main .product .paid{background:url("../images/paid.png") no-repeat right top;}
+	
+	.warnning_box{width:580px;height:340px;margin:300px auto;position:relative;background:#FFF;}
+	.warnning_box .tishi{height:80px;line-height:80px;background:#F3F3F3;font-size:20px;padding-left:40px;}
+	.warnning_box .close{width:50px;height:50px;background:url("../images/bt_close3.jpg") no-repeat center center;margin-top:12px;margin-right:20px;}
+	.warnning_box .close:hover{cursor:pointer;}
+	.warnning_box .warn_text{height:170px;box-sizing:border-box;padding:40px 40px 35px 150px;font-size:16px;background:url("../images/bt_warn.jpg") no-repeat 46px center;}
+	.warnning_box .warn_text p{line-height:32px;}
+	.warnning_box .tzqt{display:block;*display:inline;display:inline-block;width:280px;height:50px;line-height:50px;text-align:center;border-radius:5px;background:#3898DB;color:#FFF;font-size:20px;margin-left:150px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

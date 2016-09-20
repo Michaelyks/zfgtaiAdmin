@@ -1,0 +1,38 @@
+/*CSS Reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0;padding: 0;border:0; font-size: 100%;font:inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block;
+}
+a { color: #222; text-decoration: none; outline: none; border:0px;-webkit-tap-highlight-color: rgba(255,255,255,0);}
+body {line-height:1; background: #fff;  font-family: "microsoft yahei";}
+img { border:0px; width: 100%;}
+ol,ul {list-style: none;}
+blockquote ,q { quotes: none;}
+blockquote:before, blockquote:after,q:before,q:after{content: ''; content:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+.clear { clear: both;}
+.clearfix::after{content:"";display:block;height:0;clear:both;visibility:hidden}
+body { min-width: 320px; max-width: 640px; margin: 0 auto; background:#fff;    font-family: Microsoft Yahei; font-size: 14px;}
+.blue-body { background: #f0f4f5;}
+
+header { padding:0px 10px; background: #f74545; position: relative;}
+h1 { margin: 0em 0em; font-size:1.2em; text-align: center; line-height:40px; font-weight: normal;color: #fff; height: 40px;}
+.go-back { display: block; position: absolute; left:0px; top:0px; }
+.go-back span {display: block; background: url(../img/back_02.png) center center / 20px 20px no-repeat;height:40px; width:40px;}
+section {}
+section p { margin:0px 0px 5px 0px; font-size: .9em; line-height: 1.4em;padding: 0px;}
+section .red { color: #4e4e4e; font-weight;}
+section .p-word { padding:5px 5px 5px 12px; background:#e5e5e5; border-radius:5px; color: #ff9095; font-size: 1em; line-height: 1.5em; margin: 0px 0px 20px 0px;}
+section .p-table { background: #fff; border-radius: 5px;}
+.p-table .xe-table { border:0px; width: 100%; text-align: center;}
+.p-table .xe-table tr  { border-top:1px solid #f0d6d6; border-left:1px solid #f0d6d6}
+.p-table .xe-table tr td,.p-table .xe-table tr th { border-right: 1px solid #f0d6d6; border-bottom:1px solid #f0d6d6; text-align: center;}
+.p-table .xe-table tr th { font-weight: bold; height: 2em; vertical-align: middle; position: relative;}
+.p-table .xe-table td { line-height:2em; font-size:.8em; vertical-align: middle;}
+.p-table .xe-table .w { display:inline-block; background: url(../img/w_03.png) center center / 100% 100% no-repeat; width:1em; height: 1em;}
+.p-table .xe-table .mes { position:absolute; background: rgba(0,0,0,.8); padding: 3px;color: #fff; width:7em; font-weight: normal; font-size:.8em; letter-spacing: 1px; border-radius:3px;left:105%; top:0px; z-index: 999; display: none;}
+.p-table .xe-table .mes::after { content: ''; border-top:8px solid transparent; border-bottom: 8px solid transparent; border-right:10px solid rgba(0,0,0,0.8); top:6px; left:-10px; width: 0px; height: 0px; position: absolute;}
+
+
+
+

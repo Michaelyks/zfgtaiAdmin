@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zfgt.orm.MShare" table="m_share" >
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="usersId" type="java.lang.Long">
+            <column name="users_id" default="0">
+                <comment>用户id</comment>
+            </column>
+        </property>
+        <property name="flag" type="java.lang.String">
+            <column name="flag">
+                <comment>活动id</comment>
+            </column>
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="type" length="9">
+                <comment>分享平台</comment>
+            </column>
+        </property>               
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property>                                        
+        <property name="note" type="java.lang.String">
+            <column name="note" length="199">
+                <comment>备注</comment>
+            </column>
+        </property>
+   
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+	<!-- 创建表 示例-->
+<!-- 	<changeSet id="account" author="lch">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<tableExists tableName="account" />
+			</not>
+		</preConditions>
+		<createTable tableName="account">
+			<column name="id" type="varchar(36)">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="pk_sk1" />
+			</column>
+			<column name="Type" type="int" defaultValueNumeric="0" />
+			<column name="Status" type="int" defaultValueNumeric="0" />
+		</createTable>
+	</changeSet> -->
+	<!-- 添加字段段示例 -->
+<!-- 	<changeSet id="add_account_bank_code" author="lch">
+		<preConditions onFail="MARK_RAN">
+			<not>
+				<columnExists tableName="account" columnName="bank_code" />
+			</not>
+		</preConditions>
+		<addColumn tableName="account">
+			<column name="bank_code" type="varchar(2000)"></column>
+		</addColumn>
+	</changeSet> -->
+
+	<!-- 添加索引 示例-->
+<!-- 	<changeSet id="add_account_bank_code" author="bzmRt">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="account" />
+			<not>
+				<indexExists tableName="account" indexName="index_account_bank_code" />
+			</not>
+		</preConditions>
+		<createIndex tableName="account" indexName="index_account_bank_code">
+			<column name="bank_code" />
+		</createIndex>
+	</changeSet> -->
+
+
+
+
+
+
+
+</databaseChangeLog>  

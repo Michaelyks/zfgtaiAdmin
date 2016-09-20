@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 
+    资金流水记录
+    @author qwy
+    @createTime 2015-04-27 09:38:06
+-->
+<hibernate-mapping>
+    <class name="com.zfgt.orm.FundRecord" table="fund_record" >
+        <id name="id" type="java.lang.String">
+            <column name="id" length="50" />
+            <generator class="uuid.hex" />
+        </id>
+        <property name="money" type="java.lang.Double">
+            <column name="money"  >
+                <comment>操作金额</comment>
+            </column>
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="status" length="5" >
+                <comment>状态 0:收入; 1:支出</comment>
+            </column>
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="type" length="20" >
+                <comment>操作类别 cz:用户充值 tx:提现 zf:在线支付</comment>
+            </column>
+        </property>
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>获得时间</comment>
+            </column>
+        </property>
+        <property name="usersId" type="java.lang.Long">
+            <column name="users_id" >
+                <comment>用户id</comment>
+            </column>
+        </property>
+        <property name="operatedWay" type="java.lang.String">
+            <column name="operated_way" length="20">
+                <comment>操作途径</comment>
+            </column>
+        </property>
+        <property name="note" type="java.lang.String">
+            <column name="note" length="200">
+                <comment>备注</comment>
+            </column>
+        </property>
+         <property name="usersCost" type="java.lang.Double">
+            <column name="users_cost"  >
+                <comment>操作金额</comment>
+            </column>
+        </property>
+        <property name="txRecordId" type="java.lang.String">
+            <column name="tx_record_id" length="200">
+                <comment>提现记录的id</comment>
+            </column>
+        </property>
+         <many-to-one name="users" class="com.zfgt.orm.Users"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore">
+            <column name="users_id" />
+        </many-to-one> 
+    </class>
+</hibernate-mapping>

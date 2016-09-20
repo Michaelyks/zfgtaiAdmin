@@ -1,0 +1,14 @@
+/* CSS Document */
+.borrow_total { font:12px/36px "Microsoft Yahei"; color:#d24740; padding:30px 30px 10px; }
+.borrow_total label { font-size:24px; }
+.borrow_total span { font-size:30px; }
+.borrow_box { background-color:#fff; border:solid 1px #b4b4b4; padding:15px 25px; margin-bottom:15px; }
+.borrow_box .filter { height:34px; font:14px/34px "Microsoft Yahei"; }
+.borrow_box .filter label { float:left; padding:0 20px; color:#747474; }
+.borrow_box .filter select { float:left; height:20px; width:150px; border:solid 1px #707070; margin-top:6px; line-height:20px; padding:0; }
+.borrow_box .filter input { margin-left:20px; width:93px; height:34px; font:14px/32px "sunmin"; background:url(../images/confirm_btn_bg.png) no-repeat center; color:#fff; border:none; cursor:pointer; }
+.borrow_box .table { }
+.borrow_box .table table { width:100%; }
+.borrow_box .table th,.borrow_box .table td { height:60px; border-bottom:dashed 1px #747474; text-align:center; font:12px/24px "Microsoft Yahei"; }
+.borrow_box .table td p { white-space:nowrap; width:158px; overflow:hidden; text-overflow:ellipsis; }
+.borrow_box .table td input { width:56px; height:22px; border:none; background:url(../images/redeem_btn2.png) no-repeat center; color:#fff; cursor:pointer; }

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- author: 覃文勇 createTime 2015-9-14下午2:45:13 -->
+<hibernate-mapping>
+	<class name="com.zfgt.orm.Contract" table="contract">
+		<id name="id" type="java.lang.String">
+			<column name="id" length="50" />
+			<generator class="uuid.hex" />
+		</id>
+		<property name="recordNumber" type="java.lang.String">
+			<column name="record_number" length="20">
+				<comment>合同编号，唯一</comment>
+			</column>
+		</property>
+		<property name="investorsId" type="java.lang.String">
+			<column name="investors_id" length="50">
+				<comment>投资id</comment>
+			</column>
+		</property>
+		<property name="title" type="java.lang.String">
+			<column name="title" length="100">
+				<comment>标题</comment>
+			</column>
+		</property>
+		<property name="productId" type="java.lang.String">
+			<column name="product_id" length="50">
+				<comment>产品ID</comment>
+			</column>
+		</property>
+		<property name="productTitle" type="java.lang.String">
+			<column name="product_title" length="100">
+				<comment>产品标题</comment>
+			</column>
+		</property>
+		<property name="startTime" type="java.util.Date">
+			<column name="start_time" length="19">
+				<comment>开始时间</comment>
+			</column>
+		</property>
+		<property name="endTime" type="java.util.Date">
+			<column name="end_time" length="19">
+				<comment>结束时间</comment>
+			</column>
+		</property>
+		<property name="days" type="java.lang.Long">
+			<column name="days" length="20">
+				<comment>合同时长，天数</comment>
+			</column>
+		</property>
+		<property name="insertTime" type="java.util.Date">
+			<column name="insert_time" length="19">
+				<comment>插入时间</comment>
+			</column>
+		</property>
+		<property name="updateTime" type="java.util.Date">
+			<column name="update_time" length="19">
+				<comment>更新时间</comment>
+			</column>
+		</property>
+		<property name="usersId" type="java.lang.Long">
+			<column name="users_id">
+				<comment>用户id</comment>
+			</column>
+		</property>
+		<property name="username" type="java.lang.String">
+			<column name="username" length="200">
+				<comment>用户名</comment>
+			</column>
+		</property>
+		<property name="idcard" type="java.lang.String">
+			<column name="idcard" length="200">
+				<comment>身份证号</comment>
+			</column>
+		</property>
+		<property name="status" type="java.lang.String">
+			<column name="status" length="5">
+				<comment>状态 0 生效；1 失效；2已删除,</comment>
+			</column>
+		</property>
+		<property name="type" type="java.lang.String">
+			<column name="type" length="5">
+				<comment>类型 0 常规产品；1 基金产品,</comment>
+			</column>
+		</property>
+		<property name="copies" type="java.lang.Long">
+			<column name="copies">
+				<comment>购买份数</comment>
+			</column>
+		</property>
+		<property name="inMoney" type="java.lang.Double">
+			<column name="in_money">
+				<comment>本金</comment>
+			</column>
+		</property>
+		<property name="coupon" type="java.lang.Double">
+			<column name="coupon">
+				<comment>优惠券</comment>
+			</column>
+		</property>
+		<property name="note" type="java.lang.String">
+			<column name="note" length="200">
+				<comment>备注</comment>
+			</column>
+		</property>
+       <many-to-one name="users" class="com.zfgt.orm.Users"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore" cascade="save-update">
+            <column name="users_id" />
+        </many-to-one>
+       <many-to-one name="product" class="com.zfgt.orm.Product"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore" cascade="save-update">
+            <column name="product_id" />
+        </many-to-one>
+       <many-to-one name="investors" class="com.zfgt.orm.Investors"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore" cascade="save-update">
+            <column name="investors_id" />
+        </many-to-one>	                	
+	</class>
+</hibernate-mapping>

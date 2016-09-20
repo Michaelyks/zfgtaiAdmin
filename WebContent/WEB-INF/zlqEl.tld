@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>1.0</tlib-version>
+	<short-name>el</short-name>
+	<function>
+		<!-- 对这个EL方法的描述  -->
+		<description>calculate string length</description>
+		<name>getDdName</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.Elutil</function-class>
+		<function-signature>java.lang.String getDdName(java.lang.Integer)</function-signature>
+		<example>${el:getDdName(str,n)}</example><!-- 例如 -->
+	</function>
+	
+		<function>
+		<!-- 对这个EL方法的描述  -->
+		<description>截取字符串</description>
+		<name>getSubString</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.Elutil</function-class>
+		<function-signature>java.lang.String getSubString(java.lang.String,java.lang.String)</function-signature>
+		<example>${el:getSubString(str,length)}</example><!-- 例如 -->
+	</function>
+	
+	<function>
+		<!-- 对这个EL方法的描述  -->
+		<description>将日期以固定格式显示</description>
+		<name>getFormatDate</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.Elutil</function-class>
+		<function-signature>java.lang.String getFormatDate(java.util.Date)</function-signature>
+		<example>${el:getFormatDate(date)}</example><!-- 例如 -->
+	</function>
+	<function>
+		<!-- 对这个EL方法的描述  -->
+		<description>将日期以固定格式显示</description>
+		<name>formatDate</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.Elutil</function-class>
+		<function-signature>java.util.Date getFormatDate(java.lang.String)</function-signature>
+		<example>${el:formatDate(date)}</example><!-- 例如 -->
+	</function>
+	<function>
+		<!-- 对这个EL方法的描述  -->
+		<description>解密字符串</description>
+		<name>jieMiUsername</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.DESEncrypt</function-class>
+		<function-signature>java.lang.String jieMiUsername(java.lang.String)</function-signature>
+		<example>${el:jieMiUsername(str)}</example><!-- 例如 -->
+	</function>
+		<function>
+			<!-- 对这个EL方法的描述  -->
+		<description>加密字符串</description>
+		<name>jiaMiUsername</name><!-- 调用EL方法的名称 -->
+		<function-class>com.zfgt.common.util.DESEncrypt</function-class>
+		<function-signature>java.lang.String jiaMiUsername(java.lang.String)</function-signature>
+		<example>${el:jiaMiUsername(str)}</example><!-- 例如 -->
+		</function>
+</taglib>

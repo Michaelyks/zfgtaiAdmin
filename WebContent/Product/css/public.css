@@ -1,0 +1,47 @@
+*{padding:0;margin:0}
+ul{list-style-type:none}
+.red{color:red}
+body{font-size:12px;font-family:"Microsoft Yahei"}
+a{text-decoration:none;color:black}
+input, select{outline:none;}
+.on_t, .on_t2{border:5px solid WHITE;box-sizing:border-box}
+.chense{color:#FF8913}
+.green{color:green}
+.clea{clear:both}
+.red{color:red}
+.blue{color:#4b95d3}
+
+.bottom1 p input {width:173px; height:19px;display:inline;}
+.login-center { height:80px; width:1000px; margin:0px auto;}
+.login-center .logo { line-height:80px;}
+.login-center .logo img {vertical-align: middle;}
+
+.login-main { width:300px; height:200px; margin:50px auto; background:#eeeeee; border:1px solid #E41C20; border-radius:5px;}
+.login-main h1 {font-size:18px; font-weight:normal;line-height: 40px;}
+.login-main table { border:0px;}
+.login-main table tr { height:40px; line-height:40px;}
+.login-main table tr td {font-size:14px;}
+.login-main table tr td:first-child { text-align:right;}
+.login-main table tr #username,.login-main table tr #password { border:1px solid #ccc; border-radius:3px; height:30px; padding:0px 0px 3px;}
+
+.ctshow {animation: ctshow 0.5s linear 0s 1 normal;-moz-animation: ctshow 0.5s linear 0s 1 normal; -o-animation: ctshow 0.5s linear 0s 1 normal; -webkit-animation: ctshow 0.5s linear 0s 1 normal;}
+@keyframes ctshow{0% { display: none;}
+25% { display:block; opacity: 0;transform: scale(.3);}
+50% { opacity: 1;transform: scale(1.05);}
+75% { transform: scale(.9);}
+100% { transform: scale(1);}}
+@-moz-keyframes ctshow{ 0% { display: none;}
+25% { display:block; opacity: 0;transform: scale(.3);}
+50% { opacity: 1;transform: scale(1.05);}
+75% { transform: scale(.9);}
+100% { transform: scale(1);}}
+@-o-keyframes ctshow{0% { display: none;}
+25% { display:block; opacity: 0;transform: scale(.3);}
+50% { opacity: 1;transform: scale(1.05);}
+75% { transform: scale(.9);}
+100% { transform: scale(1);}}
+@-webkit-keyframes ctshow{0% { display: none;}
+25% { display:block; opacity: 0;transform: scale(.3);}
+50% { opacity: 1;transform: scale(1.05);}
+75% { transform: scale(.9);}
+100% { transform: scale(1);}}

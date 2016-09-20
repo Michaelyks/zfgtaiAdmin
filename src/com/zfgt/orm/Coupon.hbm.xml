@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- author: qwy createTime 2015-04-24 11:43:51 -->
+<hibernate-mapping>
+	<class name="com.zfgt.orm.Coupon" table="coupon">
+		<id name="id" type="java.lang.String">
+			<column name="id" length="50" />
+			<generator class="uuid.hex" />
+		</id>
+		<property name="productId" type="java.lang.String">
+			<column name="product_id" length="50">
+				<comment>产品ID</comment>
+			</column>
+		</property>
+		<property name="usersId" type="java.lang.Long">
+			<column name="users_id">
+				<comment>用户id</comment>
+			</column>
+		</property>
+		<property name="investorsId" type="java.lang.String">
+			<column name="investors_id" length="50">
+				<comment>投资列表的id</comment>
+			</column>
+		</property>
+		<property name="status" type="java.lang.String">
+			<column name="status" length="5">
+				<comment>状态 0未使用,1未用完,2已用完,3已过期</comment>
+			</column>
+		</property>
+		<property name="money" type="java.lang.Double">
+			<column name="money">
+				<comment>红包金额</comment>
+			</column>
+		</property>
+		<property name="initMoney" type="java.lang.Double">
+			<column name="init_money">
+				<comment>红包金额</comment>
+			</column>
+		</property>
+		<property name="insertTime" type="java.util.Date">
+			<column name="insert_time" length="19">
+				<comment>获得时间</comment>
+			</column>
+		</property>
+		<property name="updateTime" type="java.util.Date">
+			<column name="update_time" length="19">
+				<comment>更新时间</comment>
+			</column>
+		</property>
+		<property name="useTime" type="java.util.Date">
+			<column name="use_time" length="19">
+				<comment>使用时间</comment>
+			</column>
+		</property>
+		<property name="overTime" type="java.util.Date">
+			<column name="over_time" length="19">
+				<comment>过期时间</comment>
+			</column>
+		</property>
+		<property name="type" type="java.lang.String">
+			<column name="type" length="5" default="0">
+				<comment>类别 如:0:常规投资券; 1:新手投资券</comment>
+			</column>
+		</property>
+		<property name="isAlways" type="java.lang.String">
+			<column name="is_always" length="5">
+				<comment>是否永久有效; 0:否; 1:永久有效;</comment>
+			</column>
+		</property>
+		<property name="note" type="java.lang.String">
+			<column name="note" length="200">
+				<comment>备注</comment>
+			</column>
+		</property>
+		<property name="fromId" type="java.lang.Long">
+			<column name="from_id">
+				<comment>发红包者的id;一般为管理员账户的id; -1为线程自动发放id;</comment>
+			</column>
+		</property>
+		<many-to-one name="users" class="com.zfgt.orm.Users" lazy="false"
+			insert="false" update="false" fetch="join" not-found="ignore">
+			<column name="users_id" />
+		</many-to-one>
+	</class>
+</hibernate-mapping>

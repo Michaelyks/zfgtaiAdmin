@@ -1,0 +1,202 @@
+/* CSS Document */
+.sns_nav { height:40px; margin-top:10px; }
+.sns_nav .search { width:220px; height:20px; border:solid 1px #b4b4b4; border-radius:5px; background-color:#fff; padding:9px; }
+.sns_nav .search input.txt { float:left; border:none; height:20px; width:195px; }
+.sns_nav .search input.btn { float:right; width:20px; height:20px; background:url(../images/sns_search_btn.png) no-repeat center; border:none; cursor:pointer; }
+.sns_nav .posted { width:110px; height:40px; margin-left:10px; }
+.sns_nav .posted a { display:block; height:40px; font:16px/40px "Microsoft Yahei"; color:#fff; background-color:#00a7e3; text-align:center; }
+.sns_nav ul li { float:left; height:40px; font:16px/40px "Microsoft Yahei"; margin-right:15px; position:relative; }
+.sns_nav ul li a { display:block; padding-right:20px; color:#000; }
+.sns_nav ul li a.ico { background:url(../images/a_down.png) no-repeat right center; }
+.sns_nav ul li .box { padding:10px 20px; background-color:#fff; border:solid 1px #ccc; position:absolute; right:0px; top:40px; font:14px/30px "Microsoft Yahei"; display:none; }
+.sns_nav ul li .box a { padding:0px; }
+
+/*sns_left*/
+.sns_left { width:700px; }
+
+/*sns_banner*/
+.sns_banner { margin-top:20px; }
+
+/*sns_crumbs*/
+.sns_crumbs { font:16px/32px "Microsoft Yahei"; margin-top:10px; }
+.sns_crumbs a { color:#000; }
+
+/*sns_right*/
+.sns_right { width:250px; }
+.sns_right .button { height:33px; margin-top:20px; }
+.sns_right .button a { color:#fff; text-align:center; border-radius:3px; }
+.sns_right .button a.login { width:110px; height:31px; border:solid 1px #0c497c; background-color:#303030; font:14px/31px "sunmin"; }
+.sns_right .button a.reg { width:128px; height:33px; background:url(../images/reg_btn_bg.png) no-repeat center; font:14px/33px "sunmin"; }
+
+/*sns_award*/
+.sns_award { margin-top:10px; border:solid 1px #ccc; background-color:#fff; }
+.sns_award h2 { height:40px; padding:0 10px; font:14px/40px "Microsoft Yahei"; }
+.sns_award dl { padding:10px; height:64px; border-top:dashed 1px #ccc; }
+.sns_award dl dt { width:64px; height:64px; float:left; }
+.sns_award dl dd { margin-left:74px; }
+.sns_award dl dd h4 { }
+.sns_award dl dd h4 span { float:right; font:12px/30px "Microsoft Yahei"; }
+.sns_award dl dd h4 a { font:14px/30px "Microsoft Yahei"; color:#00a7e3; }
+.sns_award dl dd p { font:12px/20px "Microsoft Yahei"; color:#666; }
+
+/*sns_gambit*/
+.sns_gambit { margin-top:10px; border:solid 1px #ccc; background-color:#fff; }
+.sns_gambit h2 { height:40px; padding:0 10px; font:14px/40px "Microsoft Yahei"; }
+.sns_gambit ul { padding:0 10px 10px; height:120px }
+.sns_gambit ul li { height:24px; font:14px/24px "Microsoft Yahei"; }
+
+/*sns_column*/
+.sns_column { margin-top:23px; }
+.sns_column dl { width:700px; overflow:hidden; }
+.sns_column dl dt { height:20px; font:18px/20px "Microsoft Yahei"; color:#000; margin-bottom:20px; }
+.sns_column dl dd { height:102px; width:720px; }
+.sns_column dl dd a { float:left; width:340px; background-color:#fff; border-radius:5px; overflow:hidden; margin:0 20px 20px 0; }
+.sns_column dl dd a span { float:left; padding:15px; height:72px; width:72px; background-color:#ddd; margin-right:10px; }
+.sns_column dl dd a h4 { font:18px/56px "Microsoft Yahei"; color:#000; height:56px; }
+.sns_column dl dd a p { font:14px/18px "Microsoft Yahei"; color:#999; }
+
+/*sns_button*/
+.sns_button { }
+.sns_button .sns_tab { width:133px; padding:1px; margin:2px; height:22px; background:url(../images/sns_tab.png) no-repeat center; float:right; }
+.sns_button .sns_tab span { height:22px; width:66px; text-align:center; font:12px/22px "sunmin"; cursor:pointer; }
+.sns_button .sns_tab span.on { background:url(../images/sns_tab2.png) repeat-x center; }
+.sns_button p a { float:left; font:14px/28px "Microsoft Yahei"; text-align:center; height:28px; padding:0 15px; color:#105cb6; }
+.sns_button p a.on { background:url(../images/btn_ico2.png) repeat-x center; color:#fff; height:26px; border:solid 1px #0c497c; border-radius:3px; line-height:26px; }
+
+/*sns_list*/
+.sns_list { border:solid 1px #ccc; background-color:#fff; border-radius:5px; overflow:hidden; margin-top:10px; padding:0 5px; }
+.sns_list dl { border-top:dashed 1px #ccc; height:48px; padding:10px; }
+.sns_list dl:nth-child(1) { border:none; }
+.sns_list dl dt { font:14px/24px "sunmin"; }
+.sns_list dl dt h4 { height:24px; }
+.sns_list dl dt h4 a { color:#105cb6; }
+.sns_list dl dt p { color:#999; }
+.sns_list dl dt img { vertical-align:text-top; }
+.sns_list dl dd { float:right; width:70px; text-align:center; font:14px/24px "Microsoft Yahei"; color:#999; }
+.sns_title { height:30px; font:14px/30px "sunmin"; color:#999; text-align:center; }
+.sns_page { height:29px; padding:15px 0; border-top:dashed 1px #ccc; }
+.noborder { border:none; }
+.sns_page a.write { float:right; background:url(../images/btn_ico2.png) repeat-x center; color:#fff; height:27px; border:solid 1px #0c497c; border-radius:3px; font:14px/27px "Microsoft Yahei"; padding:0 20px; margin-left:10px; }
+.sns_page a.return { float:left; background:url(../images/btn_ico3.png) repeat-x center; color:#666; height:27px; border:solid 1px #b0b0b0; border-radius:3px; font:14px/27px "Microsoft Yahei"; padding:0 20px; margin-right:10px; }
+.sns_page a.reply { float:right; background:url(../images/btn_ico2.png) repeat-x center; color:#fff; height:27px; border:solid 1px #0c497c; border-radius:3px; font:14px/27px "Microsoft Yahei"; padding:0 20px; }
+.sns_page ul { float:left; height:29px; }
+.sns_page ul li { float:left; margin:0 2px; height:29px; }
+.sns_page ul li a { display:block; border:solid 1px #b4b4b4; padding:0 10px; background-color:#fff; color:#666; font-size:14px; height:27px; line-height:27px; border-radius:3px; }
+.sns_page ul li.prev a { background:#fff url(../images/page_prev.png) no-repeat 10% center; padding-left:18px; }
+.sns_page ul li.next a { background:#fff url(../images/page_next.png) no-repeat 90% center; padding-right:18px; }
+.sns_page ul li a:hover { background-color:#1480cc; border:solid 1px #1480cc; color:#fff; }
+
+/*sns_ann_info*/
+.sns_ann_info { font:14px/30px "Microsoft Yahei"; margin-top:10px; }
+.sns_ann_info span { padding-right:30px; }
+.sns_ann_info label { color:#999; }
+
+/*sns_filter*/
+.sns_filter { font:12px/24px "sunmin"; margin-top:10px; }
+.sns_filter a { color:#000; }
+.sns_filter a.on { font-weight:bold; }
+
+/*sns_publish*/
+.sns_publish { margin-top:10px; }
+.sns_publish .button a.publish { float:left; background:url(../images/btn_ico2.png) repeat-x center; color:#fff; height:26px; border:solid 1px #0c497c; border-radius:3px; font:14px/26px "Microsoft Yahei"; padding:0 15px; }
+.sns_publish .form { }
+.sns_publish .form input.tit { padding:5px; height:20px; border:solid 1px #ccc; width:300px; border-radius:5px; font:14px/20px "Microsoft Yahei"; margin:15px 0; }
+.sns_publish .form .btn { height:28px; padding:15px 0; }
+.sns_publish .form .btn a { float:left; padding:0 20px; font:14px/26px "Microsoft Yahei"; border-radius:3px; height:26px; margin-right:15px; }
+.sns_publish .form .btn a.publish { background:url(../images/btn_ico2.png) repeat-x center; color:#fff; border:solid 1px #0c497c; }
+.sns_publish .form .btn a.cancel { background-color:#e9e9e9; border:solid 1px #b0b0b0; color:#000; }
+.sns_publish .form .btn span { float:left; font:14px/28px "Microsoft Yahei"; }
+.sns_publish .form .btn span input { float:left; width:14px; height:14px; margin:9px 7px 0 0; }
+
+/*sns_user_info*/
+.sns_user_info { margin-top:20px; }
+.sns_user_info dl { height:116px; }
+.sns_user_info dt { float:left; width:80px; height:80px; margin-top:15px; }
+.sns_user_info dd { margin-left:100px; }
+.sns_user_info dd p { height:24px; font:14px/24px "Microsoft Yahei"; }
+.sns_user_info dd p span { padding-right:25px; }
+.sns_user_info dd p a { color:#00a7e3; }
+.sns_user_info ul { padding:10px; }
+.sns_user_info li { float:left; width:20%; text-align:center; }
+.sns_user_info li h4 { font:30px/48px "Microsoft Yahei"; color:#00a7e3; height:48px; overflow:hidden; }
+.sns_user_info li h4 span { font-size:14px; }
+
+/*sns_list_box*/
+.sns_list_box { border:solid 1px #ddd; background-color:#fff; position:relative; color:#666; }
+.sns_list_box .menu { position:absolute; width:106px; border-right:solid 1px #ddd; border-top:solid 4px #00a7e3; top:0px; left:0px; bottom:0px; }
+.sns_list_box .menu li { height:50px; text-align:center; font:12px/50px "Microsoft Yahei"; border-bottom:solid 1px #ddd; background-color:#fff; }
+.sns_list_box .menu li.on { width:106px; padding-right:1px; }
+.sns_list_box .list { margin-left:130px; padding:15px 50px 15px 0; min-height:400px; }
+.sns_list_box .list .head { height:25px; }
+.sns_list_box .list .head span { float:left; font:12px/25px "Microsoft Yahei"; padding:0 15px; border-radius:5px; cursor:pointer; }
+.sns_list_box .list .head span.cur { background-color:#f2f2f2; }
+.sns_list_box .list .table { margin-top:10px; }
+.sns_list_box .list .table table { width:100%; }
+.sns_list_box .list .table th { height:30px; font:12px/30px "Microsoft Yahei"; background-color:#f2f2f2; text-align:center; }
+.sns_list_box .list .table td { padding:10px; font:12px/24px "Microsoft Yahei"; text-align:center; border-top:dashed 1px #666; }
+.sns_list_box .list .table tr:nth-child(2) td { border-top:none; }
+.sns_list_box .list .table td a { color:#00a7e3; }
+.sns_list_box .list .table td.tit { text-align:left; }
+.sns_list_box .list .table td a.del { float:left; padding:0 15px; font:12px/24px "Microsoft Yahei"; background-color:#00a7e3; color:#fff; }
+.sns_list_box .list td .ui_page { padding:0px; }
+.sns_list_box .list td .ui_page a.on { color:#fff; }
+.sns_list_box .list .ondata { padding-top:60px; height:40px; font:12px/40px "Microsoft Yahei"; border-bottom:dashed 1px #666; }
+
+/*sns_my_reply*/
+.sns_my_reply { }
+.sns_my_reply dl { border-bottom:dashed 1px #666; padding:10px 0; }
+.sns_my_reply dt { padding:10px 5px; }
+.sns_my_reply dt p { font:12px/22px "Microsoft Yahei"; padding:5px; }
+.sns_my_reply dt p span { float:right; padding-left:50px; }
+.sns_my_reply dd { height:64px; font:12px/64px "Microsoft Yahei"; background-color:#f2f2f2; padding:0 20px; }
+.sns_my_reply dd a { padding-right:20px; color:#00a7e3; }
+
+/*sns_my_post*/
+.sns_my_post { }
+.sns_my_post li { height:36px; font:12px/36px "Microsoft Yahei"; border-bottom:dashed 1px #666; padding:0 10px; }
+.sns_my_post li em { float:right; padding-left:80px; }
+.sns_my_post li span { float:right; padding:0 5px; }
+.sns_my_post li p a { color:#00a7e3; }
+.sns_my_post .ui_page { padding:15px 0; }
+.sns_my_post .ui_page li { border-bottom:none; padding:0px; }
+
+/*sns_floor_cnt*/
+.sns_floor_cnt { }
+.sns_floor_cnt dl { margin-top:30px; background-color:#fff; border:solid 1px #b4b4b4; border-radius:3px; overflow:hidden; }
+.sns_floor_cnt dt { float:left; padding:20px 0 20px 25px; width:140px; border-right:dotted 1px #666; font:14px/25px "Microsoft Yahei"; color:#333; }
+.sns_floor_cnt dt h4 { margin-top:10px; }
+.sns_floor_cnt dt h5 { padding-bottom:10px; }
+.sns_floor_cnt dt label { float:left; width:70px; }
+.sns_floor_cnt dd { padding:5px 30px; margin-left:166px }
+.sns_floor_cnt dd .tit { height:40px; font:14px/40px "Microsoft Yahei"; border-bottom:dotted 1px #666; }
+.sns_floor_cnt dd .tit p { float:right; font-size:12px; color:#999; }
+.sns_floor_cnt dd .tit p a { color:#999; padding:0 5px; }
+.sns_floor_cnt dd .head { padding:5px 0; }
+.sns_floor_cnt dd .head em { float:right; font:20px/36px "Microsoft Yahei"; color:#999; }
+.sns_floor_cnt dd .head p { font:12px/24px "Microsoft Yahei"; color:#999; }
+.sns_floor_cnt dd .head .bdsharebuttonbox { height:28px; overflow:hidden; }
+.sns_floor_cnt dd .cnt { padding:10px 0; border-bottom:dotted 1px #666; }
+.sns_floor_cnt dd .cnt .txt { height:240px; }
+.sns_floor_cnt dd.owner .cnt .txt { height:auto; }
+.sns_floor_cnt dd .cnt p { font:14px/24px "Microsoft Yahei"; }
+.sns_floor_cnt dd .cnt p.btn { text-align:right; font-size:12px; color:#999; }
+.sns_floor_cnt dd .cnt p.btn a { color:#999; }
+.sns_floor_cnt dd .form { }
+.sns_floor_cnt dd .form .btn { height:29px; padding:10px 0; }
+.sns_floor_cnt dd .form .btn a { float:right; margin-left:10px; }
+.sns_floor_cnt dd .form .btn p { float:right; height:29px; padding-right:45px; }
+.sns_floor_cnt dd .form .btn p img { float:left; cursor:pointer; }
+.sns_floor_cnt dd .form .btn p span { float:left; width:44px; height:23px; border:solid 1px #f50; border-radius:3px; margin-left:5px; text-align:center; font:bold 14px/23px "sunmin"; color:#f50; }
+.sns_floor_cnt dd .form .textarea { }
+.sns_floor_cnt dd .form .textarea .img { float:left; width:62px; height:62px; }
+.sns_floor_cnt dd .form .textarea .txt { margin-left:90px; position:relative; border:solid 1px #e5e3e4; border-radius:3px; padding:5px; }
+.sns_floor_cnt dd .form .textarea .txt textarea { width:100%; border:none; height:80px; resize:none; }
+.sns_floor_cnt dd .form .textarea .txt s { position:absolute; width:9px; height:17px; background:url(../images/a_left.png) no-repeat center; left:-9px; top:10px; }
+.sns_floor_cnt dd .form .textarea .hand { padding-top:10px; margin-left:90px; }
+.sns_floor_cnt dd .form .textarea .hand a.reply { float:right; width:72px; border:solid 1px #bbb; height:30px; font:14px/30px "Microsoft Yahei"; text-align:center; border-radius:3px; background-color:#e9e9e9; }
+.sns_floor_cnt dd .form .textarea .hand a.face { height:24px; font:12px/24px "Microsoft Yahei"; background:url(../images/face_ico.png) no-repeat left center; padding-left:20px; }
+.sns_floor_cnt dd .bot { padding:10px 0; }
+.sns_floor_cnt dd .bot a { float:left; height:16px; font:12px/16px "Microsoft Yahei"; margin-right:10px; padding-left:16px; }
+.sns_floor_cnt dd .bot a.reply { background:url(../images/reply_ico.png) no-repeat left center; }
+.sns_floor_cnt dd .bot a.love { background:url(../images/love_ico.png) no-repeat left center; }
+.padtop { padding:20px 0 0; }

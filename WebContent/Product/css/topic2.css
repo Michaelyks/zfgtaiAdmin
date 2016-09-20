@@ -1,0 +1,53 @@
+/* CSS Document */
+.topic_banner { height:345px; background:url(../images/topic_banner_bg.png) repeat-x center; border-top:solid 5px #ff5900; }
+.topic_box { padding:80px 0 40px; background:#ffc22c url(../images/line_bg.png) repeat-x center top; }
+.topic_box .form { width:500px; margin:0 auto; padding:20px 0; }
+.topic_box .form p { float:left; width:100%; padding:15px 0; }
+.topic_box .form label { float:left; font:24px/60px "Microsoft Yahei"; padding-right:10px; width:100px; }
+.topic_box .form input.num { float:left; height:40px; padding:10px; font:24px/40px "Microsoft Yahei"; border:none; width:200px; }
+.topic_box .form span { float:left; height:60px; margin-left:10px; text-align:center; width:160px; background-color:#dadada; font:18px/60px "Microsoft Yahei"; }
+.topic_box .form input.pass { float:left; height:40px; padding:10px; font:24px/40px "Microsoft Yahei"; border:none; width:370px; }
+.topic_box .form p.tips { padding:0 0 0 110px; font:20px/60px "Microsoft Yahei"; }
+.topic_box .form p.btn { padding-left:110px; }
+.topic_box .form p.btn input { height:60px; font:24px/40px "Microsoft Yahei"; border:none; width:390px; background-color:#ff8a00; color:#fff; cursor:pointer; }
+.topic_box .table { }
+.topic_box .table table { width:100%; }
+.topic_box .table td { height:76px; text-align:center; font:24px/36px "Microsoft Yahei"; color:#513c25; }
+.topic_box .table td span { display:block; padding-bottom:8px; height:42px; width:108px; margin:0 auto; font:30px/42px "Microsoft Yahei"; background:url(../images/rank_ico.png) no-repeat center; }
+.topic_box .table td p { padding-left:55px; height:45px; font:24px/45px "Microsoft Yahei"; width:100px; margin:0 auto; background:url(../images/kemp_ico.png) no-repeat left center; }
+.footer { padding-top:0; }
+
+.topic_login { margin:20px auto 50px; border:solid 1px #ccc; width:876px; background-color:#fff; padding:50px 41px; }
+.topic_login .tit { padding-left:55px; background:url(../images/right_ico.png) no-repeat left center; }
+.topic_login .tit h4 { font:18px/24px "Microsoft Yahei"; color:#d24740; }
+.topic_login .tit p { font:14px/24px "Microsoft Yahei"; color:#626262; }
+.topic_login .cnt { margin-top:30px; }
+.topic_login .cnt li { width:282px; float:left; height:404px; margin:0 5px; display:inline; color:#626262; }
+.topic_login .cnt li h3 { height:60px; border-radius:5px 5px 0 0; padding:0 25px; font:20px/60px "Microsoft Yahei"; color:#fff; }
+
+.topic_login .cnt li.box1 h3 { background-color:#c3d092; }
+.topic_login .cnt li.box2 h3 { background-color:#e3c253; }
+.topic_login .cnt li.box3 h3 { background-color:#82bfb7; }
+.topic_login .cnt li .box { border:solid 1px #d3d3d3; border-radius:0 0 5px 5px; padding:10px 20px; }
+.topic_login .cnt li .txt { height:200px; }
+.topic_login .cnt li h4 { font:18px/30px "Microsoft Yahei"; }
+.topic_login .cnt li p { font:14px/24px "Microsoft Yahei"; margin-top:10px; }
+.topic_login .cnt li span { color:#d24740; }
+.topic_login .cnt li em { display:block; text-align:center; padding-top:20px; }
+.topic_login .cnt li strong { display:block; font:20px/40px "Microsoft Yahei"; text-align:center; }
+.topic_login .cnt li a.btn { display:block; height:50px; width:174px; border-radius:5px; background-color:#0697da; margin:20px auto 10px; font:20px/50px "Microsoft Yahei"; color:#fff; text-align:center; }
+
+/*share_tips_pop*/
+.share_tips_pop {}
+.share_tips_pop { position:fixed; width:100%; height:100%; top:0px; left:0px; z-index:999; color:#575757; }
+.share_tips_pop .bg { position:absolute; width: 100%; height: 100%; background-color: #e7ecee; opacity: 0.6; filter: Alpha(Opacity=60); top:0px; left:0px; z-index:1; }
+.share_tips_pop .box { position:fixed; height:260px; width:480px; top:50%; left:50%; margin-left:-242px; margin-top:-132px; border:solid 2px #b4b4b4; background-color:#fff; z-index:2; border-radius:5px; }
+.share_tips_pop .tit { height:62px; border-bottom:solid 2px #33b5e5; padding:0 15px; font:16px/62px "Microsoft Yahei"; color:#33b5e5; }
+.share_tips_pop .tit span { float:right; color:#575757; cursor:pointer; }
+.share_tips_pop .notice { padding:25px 30px 35px; font:16px/24px "Microsoft Yahei"; }
+.share_tips_pop .notice p { }
+.share_tips_pop .notice p span { color:#d24740; }
+.share_tips_pop .btn { text-align:center; }
+.share_tips_pop .btn input { width:93px; height:34px; border:none; margin:0 10px; font:18px/32px "Microsoft Yahei"; color:#fff; cursor:pointer; }
+.share_tips_pop .btn input.cancel { background:url(../images/cancel_btn_bg2.png) no-repeat center; }
+.share_tips_pop .btn input.confirm { background:url(../images/confirm_btn_bg.png) no-repeat center; }

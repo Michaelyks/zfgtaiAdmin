@@ -1,0 +1,33 @@
+/* CSS Document */
+.closest_left { width:660px; margin-top:15px; }
+.closest_right { width:290px; }
+
+.closest_left .total { height:24px; padding:10px 10px 10px 64px; background:url(../images/chart_ico.png) no-repeat 30px center; border:solid 1px #b4b4b4; background-color:#fff; margin-bottom:10px; font:14px/24px "Microsoft Yahei"; color:#474747; box-shadow:0 0 2px #ccc; }
+.closest_left .total p { float:left; width:30%; text-align:center; }
+.closest_left .total p:nth-child(1) { width:40%; }
+.closest_left .total p span { font-size:18px; color:#d24740; }
+.closest_left .total p em { color:#d24740; }
+.closest_left .table { border:solid 1px #b4b4b4; box-shadow:0 0 2px #ccc; background-color:#fff; padding:10px 20px; margin-top:15px; }
+.closest_left .table table { width:100%; font:14px/20px "Microsoft Yahei"; }
+.closest_left .table th { height:40px; text-align:center; }
+.closest_left .table td { height:40px; padding:0 10px; border-bottom:dashed 1px #bebebe; text-align:center; }
+.closest_left .table td.tit { text-align:left; }
+.closest_left .table td a { color:#1480cc; }
+.closest_left .table td a:hover { text-decoration:underline; }
+
+/*closestmode*/
+.closestmode { border:solid 1px #cacaca; background-color:#fff; margin-top:15px; }
+.closestmode .tit { height:44px; background-color:#efeeee; padding-right:15px; }
+.closestmode .tit h2 { float:left; padding:0 15px; font:14px/44px "sunmin"; border-bottom:solid 2px #4089d5; height:42px; }
+.closestmode .tit a.more { float:right; font:12px/44px "sunmin"; }
+
+.announce { padding:10px 15px; }
+.announce li { padding-left:20px; background:url(../images/list_type2.png) no-repeat 0px 4px; font:12px/23px "sunmin"; overflow:hidden; }
+
+.tz_trends { }
+.tz_trends li { padding:5px 10px; border-top:solid 1px #cacaca; color:#666; }
+.tz_trends li:nth-child(1) { border:none; }
+.tz_trends li h4 { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; width:100%; height:20px; }
+.tz_trends li h4 a { display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.tz_trends li em { float:left; color:#4089d5; }
+.tz_trends li span { float:right; }

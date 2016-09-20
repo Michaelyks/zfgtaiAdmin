@@ -1,0 +1,59 @@
+
+	.my_account .my_info{min-height:643px;padding:0 40px;width:909px}
+	.mingxi{width:100%;color:#999999}
+	/*.mingxi .mingxi_head{border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;background:#fafafa}*/
+	.mingxi .mingxi_head li{float:left;padding:10px 0;border-bottom:3px solid #fff;width:80px;text-align:center}
+	.mingxi .mingxi_head li a{color:#999999;cursor:pointer}
+	.mingxi .mingxi_head .on2{border-bottom:3px solid #f5493c}
+	.mingxi .mingxi_head .on2 a{color:#f5493c;}
+	.mingxi .mingxi_head .fr{width:420px;position:relative}
+	.mingxi .mingxi_head .fr span{position:relative;top:0;*top:-4px}
+	/*.mingxi .mingxi_head input{width:110px;padding:5px 25px 5px 5px;margin:7px 5px 0 5px;border:1px solid #e6e6e6;border-radius:3px;background:url("../images/calendar.png") no-repeat 118px center;
+	}*/
+	.nav-menu li a.sereach{padding:0 25px;border:1px solid #e6e6e6;color:#fff;border-radius:6px; background:#3598db;}
+	.wujilu{min-height:300px;background:url("../images/account_wujilu.png") no-repeat center 60px;position:relative}
+	.wujilu span{position:absolute;display:block;width:100%;text-align:center;bottom:80px}
+	
+	
+	#liushui{
+		padding-bottom: 30px;
+		border-bottom: 1px dashed #999;
+	}
+	
+	#searched{
+		margin-top: 20px;
+	}
+	
+	#searched input{
+		width:160px;
+		height: 30px;
+		text-align:center;
+		border:1px solid #e6e6e6;
+		font-size: 18px;
+		border-radius:3px;
+		color: #555;
+		/*background:url("../images/calendar.png") no-repeat 118px center;*/
+	}
+	
+	.my_info table .last-td{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

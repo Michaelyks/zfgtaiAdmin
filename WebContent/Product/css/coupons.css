@@ -1,0 +1,69 @@
+
+.my_info .coupons_list{min-height:360px;border-top:1px solid #e6e6e6;display:none}
+.my_info .coupons_list .touzi_tip{position:absolute;left:50%;bottom:55px;width:460px;text-align:center;margin-left:-230px;font-size:14px;color:#999999}
+.my_info .coupons_list .touzi_tip  p a{color:#f5493c}
+.my_info .coupons_list .dingwei{min-height:360px;background:url("../images/account_wujilu.png") no-repeat center center;position:relative;}
+.my_info .coupons_tab table td{border-bottom:1px dashed #e6e6e6;line-height:56px; text-align:center}
+.my_info .coupons_tab table .ative td{border-bottom:1px solid #e6e6e6;}
+.hongbao_c{
+	padding: 40px 0;
+}
+
+.hb{
+	background: url(../images/picker-bg.jpg) no-repeat;
+	width: 270px;
+	height: 254px;
+	margin: 0 0 40px 40px;
+	border-radius: 5px;
+}
+
+.hb>.mob{
+	height: 142px;
+	color: #fff;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+.mob>p{
+	margin-top: 15px;
+}
+
+.mob>p.money-b{
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.money-b label{
+	font-weight: 600;
+}
+
+.money-b>span{
+	font-size: 60px;
+	display: inline-block;
+}
+
+.hb .picker-con{
+	color: #888;
+	margin: 10px 0 0 30px;
+}
+
+.picker-con>p{
+	line-height:28px;
+}
+
+/*าัสนำร*/
+.my_info .coupons_tab table{
+	width: 900px;
+	margin: 20px auto;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

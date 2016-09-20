@@ -1,0 +1,193 @@
+	a:hover{cursor:pointer;}
+	.red{color:#FC8026}
+	.wenhao{display:inline-block;width:18px;height:18px;background:url("../images/account_quetion.png");}
+	.wenhao:hover{cursor:pointer;}
+	.my_account{margin:30px auto;color:#5e5e5e;}
+	.account_menu_l{width:200px;background:#fff;}
+	.account_menu_l ul li{width:200px;height:60px;text-align:center;line-height:60px;box-sizing:border-box;border-left:6px solid #fff;border-bottom:1px dashed #DDD;}
+	.account_menu_l ul li a{color:#5e5e5e;display:inline-block;width:194px;font-size:20px;text-align:center;}
+	.account_menu_l ul li:hover{border-left:6px solid #3898DB;}
+	.account_menu_l .l_munu_on{border-left:6px solid #3898DB;}
+	.account_menu_l .l_munu_on a{color:#3598DB;}
+	.account_menu_l .me_1{background:url("../images/account_manege.png") no-repeat 22px center;}
+	.account_menu_l .me_2{background:url("../images/account_wallet.png") no-repeat 24px center;}
+	.account_menu_l .me_3{background:url("../images/account_info.png") no-repeat 19px center;}
+	.my_account .my_info{width:980px;border-top:none 0;background:#fff}
+	.my_account .baozhan{position:relative;height:160px;box-sizing:border-box;overflow:hidden;zoom:1;}
+	.my_account .baozhan .user_img{margin:30px 35px 0;border-bottom:1px dashed #e6e6e6;position:relative;padding-bottom:28px;}
+	.my_account .baozhan .user_img img{display:block;width:100px;height:100px;border-radius:50%;overflow:hidden;}
+	.my_account .baozhan .user_img .account_wsd{border-right:1px dashed #DDD;width:580px;height:100px;position:absolute;top:0;left:140px;}
+	.my_account .baozhan .user_img .account_wsd>span{position:absolute;top:6px;font-size:16px;}
+	.my_account .renzhen{height:45px;line-height:45px;position:absolute;top:42px;oveflow:visible;}
+	.my_account .renzhen li{float:left;margin-right:30px;height:45px;position:relative;oveflow:visible;}
+	.my_account .renzhen .rz_l1{width:24px;height:32px;background:url("../images/Account_ph.jpg") no-repeat center center}
+	.my_account .renzhen .rz_l2{width:38px;height:30px;margin-top:2px;background:url("../images/Account_renzheng.jpg") no-repeat center center}
+	.my_account .renzhen .rz_l3{width:24px;height:32px;background:url("../images/Account_jymima.jpg") no-repeat center center}
+	.my_account .renzhen li:hover{cursor:pointer;}
+	.my_account .renzhen li .s_false,.my_account .renzhen li .s_OK{width:20px;height:20px;position:absolute;right:-8px;bottom:-8px;}
+	.my_account .renzhen li .s_OK{background:url("../images/Account_OK.jpg") no-repeat center center}
+	.my_account .renzhen li .s_false{background:url("../images/Account_false.jpg") no-repeat center center}
+	.my_account .renzhen .yincang_box{height:30px;position:absolute;margin-top:50px;}
+	.my_account .renzhen .yincang_box:hover{cursor:default;}
+	.my_account .renzhen .yincang{border:1px solid #CCC;position:reltive;height:30px;line-height:30px;font-size:14px;left:0px;borrom:0;padding:0 10px;border-radius:5px;}
+	.my_account .renzhen .sanjiao{position:absolute;width:8px;height:6px;top:-5px;left:25px;display:inline-block;background:url("../images/Account_tanchu.jpg") no-repeat center center;}
+	.my_account .renzhen li a{color:#3598DB;}
+	.my_account .renzhen li a:hover{cursor:pointer;color:#aa93d8;}
+	.my_account .yincang_box1{left:-20px;}
+	.my_account .yincang_box2{left:35px;}
+	.my_account .yincang_box3{left:100px;}
+	.my_account .yincang_box2 .sanjiao,.my_account .renzhen .yincang_box3 .sanjiao{left:28px;}
+	.my_account .renzhen .jindutiao{width:180px;height:10px;border-radius:10px;}
+	.my_account .renzhen .jindutiao b{height:10px;border-radius:10px;background:#FC8026;}
+	.my_account .renzhen label{float:left;font-size:16px;position:absolute;left:5px;}
+	.my_account .renzhen .tisheng{width:100px;height:35px;line-height:35px;}
+	.my_account .renzhen .tisheng a{display:inline-block;width:100px;height:35px;text-align:center;line-height:35px;font-size:16px;background:#FC8026;color:#fff;border-radius:5px;}
+	.my_account .renzhen .tisheng a:hover{background:#EF7925;color:#fff;}
+	.my_account .yhq_tishi{width:150px;height:100px;position:absolute;top:0;right:0;font-size:16px;}
+	.my_account .yhq_tishi .yincang{border:1px solid #DDD;position:absolute;width:150px;height:60px;box-sizing:border-box;line-height:25px;font-size:14px;left:10px;top:30px;padding:5px 10px;border-radius:5px;background:#FFF;}
+	.my_account .yhq_tishi .sanjiao{position:absolute;width:8px;height:6px;top:-6px;left:47px;display:inline-block;background:url("../images/Account_tanchu.jpg") no-repeat center center;}
+	.my_account .yhq_tishi .wenhao{position:relative;top:3px;left:5px;}
+	.my_account .yhq_tishi .red{display:inline-block;height:30px;line-height:30px;font-size:24px;margin-top:25px;padding-left:60px;background:url("../images/Account_yhqtishi.jpg") no-repeat left center;}
+	.my_account .yhq_tishi .red:hover{color:#aa93d8;}
+	
+	.my_account .accunt_info{padding:0 35px;}
+	.my_account .accunt_info .zichan_box{height:140px;border-bottom:1px dashed #DDD;}
+	.my_account .accunt_info .zichan_box li{float:left;width:171px;height:65px;font-size:16px;position:relative;margin-top:40px;}
+	.my_account .accunt_info .zichan_box li .yincang{border:1px solid #DDD;position:absolute;width:180px;height:60px;box-sizing:border-box;line-height:25px;font-size:14px;left:21px;top:30px;padding:5px 8px;border-radius:5px;background:#FFF;z-index:9999;}
+	.my_account .accunt_info .zichan_box li .sanjiao{position:absolute;width:8px;height:6px;top:-6px;left:47px;display:inline-block;background:url("../images/Account_tanchu.jpg") no-repeat center center;}
+	.my_account .accunt_info .zichan_box .dengyu,.my_account .accunt_info .zichan_box .jiahao{width:70px;}
+	.my_account .accunt_info .zichan_box .wenhao{position:relative;top:3px;left:5px;}
+	.my_account .accunt_info .zichan_box li>span{font-size:24px;line-height:50px;}
+	.my_account .accunt_info .zichan_box .dengyu{background:url("../images/dengyu.jpg") no-repeat center center;}
+	.my_account .accunt_info .zichan_box .jiahao{background:url("../images/jiahao.jpg") no-repeat left center;}
+	
+	.my_account .accunt_info .money{height:335px;border-bottom:1px dashed #DDD;position:relative;}
+	.my_account .accunt_info .money a{display:block;*display:inline;display:inline-block;vertical-align:middle;width:60px;height:35px;line-height:35px;text-align:center;font-size:16px;border-radius:5px;color:#888;border:1px solid #CCC;position:absolute;top:80px;left:750px;}
+	.my_account .accunt_info .money a:hover,.my_account .accunt_info .money .account_cz{color:#fff;background:#FC8026;border:1px solid transparent;}
+	.my_account .accunt_info .money #chongzhi{left:670px;}
+	.my_account .accunt_info .money #tongjitu{position:absolute;top:45px;}
+	.my_account .accunt_info .money .precent{position:absolute;top:45px;left:290px;}
+	.my_account .accunt_info .money .precent li{height:80px;line-height:80px;postion:relative;}
+	.my_account .accunt_info .money .precent li i{display:block;*display:inline;display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:20px;}
+	.my_account .accunt_info .money .precent .kyye i{background:#FFA100;}
+	.my_account .accunt_info .money .precent .djzj i{background:#FFC20E;}
+	.my_account .accunt_info .money .precent .dssy i{background:#00D7A9;}
+	.my_account .accunt_info .money .precent li span{font-size:24px;color:#FC8026;margin-left:50px;position:relative;bottom:-2px;}
+	
+	
+	.my_account .accunt_info .shouyi_show{height:160px;box-sizing:border-box;border-bottom:1px dashed #DDD;position:relative;padding-top:35px;}
+	.my_account .accunt_info .shouyi_show li{box-sizing:border-box;float:left;height:90px;width:450px;padding-left:45px;}
+	.my_account .accunt_info .shouyi_show li:first-child{padding-left:0;border-right:1px dashed #DDD;}
+	.my_account .accunt_info .shouyi_show li .profit{font-size:48px;line-height:80px;}
+	.my_account .accunt_info .shouyi_show .yincang{border:1px solid #CCC;position:absolute;width:150px;height:60px;box-sizing:border-box;line-height:25px;font-size:14px;left:548px;top:65px;padding:5px 10px;border-radius:5px;background:#FFF;}
+	.my_account .accunt_info .shouyi_show .daishou{left:27px;}
+	.my_account .accunt_info .shouyi_show .sanjiao{position:absolute;width:8px;height:6px;top:-6px;left:47px;display:inline-block;background:url("../images/Account_tanchu.jpg") no-repeat center center;}
+	.my_account .accunt_info .shouyi_show .wenhao{position:relative;top:3px;left:5px;}
+	
+	
+	
+	.my_account .accunt_info .tzjl{min-height:400px;background:url("../images/empty_page.jpg") no-repeat center top;position:relative}
+	.my_account .accunt_info .tzjl .touzi_tip{position:absolute;left:50%;bottom:45px;width:360px;text-align:center;margin-left:-180px}
+	.my_account .accunt_info .tzjl .touzi_tip a{display:block;width:280px;height:50px;line-height:50px;text-align:center;color:#fff;font-size:20px;background:#3898DB;border-radius:5px;margin:0 auto}
+	.my_account .accunt_info .tb_AcIndex .list_title{background:#F3F3F3;}
+	.my_account .accunt_info .tb_AcIndex .list_title td{border-bottom:none;}
+	
+	
+	
+	
+	/*头部切换*/
+	.my_info{min-height:643px; font-size: 16px;}
+	.my_info .list_title{position:relative;top:1px; padding: 0 0 0 40px; font-size:16px;background:#fff;margin-top:40px;}
+	.my_info .list_title li{font-size: 18px; float:left;width:292px;height:54px;line-height:54px;text-align:center;color:#4d4d4d;border-top:2px solid #fff;}
+	.my_info .list_title .on{color:#3598db;border-top:6px solid #3598db; line-height:46px; border-right:1px solid #e6e6e6;border-left:1px solid #e6e6e6;border-bottom:1px solid #fff}
+	
+	/*列表*/
+	.my_info{min-height:643px;}
+	.my_info .record_title{padding:10px 40px 10px;font-size:16px;font-weight:bold}
+	.my_info .touzijilu{min-height:530px;color:#555}
+	.my_info table{width:908px;margin:0 auto;margin-top:30px; border-collapse:collapse;empty-cells:show; color:#555; font-size:16px}
+	.my_info table td{border-bottom:1px dashed #e6e6e6;text-align:center;height:60px;}
+	.my_info table .list_head td{padding:0;background:#f0f0f0; border: none; font-size:18px}
+
+	/*没有内容*/
+	.nothing-img{
+		margin: 100px 0 0 0;
+		text-align: center;
+		overflow:hidden
+	}
+	
+	.nothing-img img{
+		display: inline-block;
+	}
+	
+	/*page*/
+	#page{
+		text-align: center
+	}
+	.pageindex2{
+		display:inline-block
+	}
+	
+	.pageindex2 a{
+		padding: 0 10px;
+		height: 36px;
+		line-height: 36px;
+		border: 1px solid #e6e6e6;
+		border-radius: 16px;
+		color:#888;
+		margin: 0 5px;
+		display: inline-block;
+	}
+	
+	.pageindex2 a.num-page{
+		width: 34px;
+		padding: 0;
+		text-align: cetenr;
+		border: 1px solid #e6e6e6;
+		border-radius: 50%;
+	}
+	
+	.pageindex2 a.active{
+		color:#fff;
+		background:#3598db;
+		border: transparent
+	}
+	
+	/*选择*/
+	.nav-menu{
+		margin: 30px 0;
+		font-size: 18px;
+	}.nav-menu li{
+		float: left;
+		height: 36px;
+		line-height: 36px;
+		margin: 0 15px 0 0;
+	}
+	
+	.nav-menu li.mr30{
+		margin-right: 30px;
+	}
+	
+	.nav-menu li a{
+		display: block;
+		padding: 0 20px;
+		border-radius: 18px;
+		color: #888;
+	}
+	.nav-menu li.on2 a{
+		background: #3598db;
+		color: #fff;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

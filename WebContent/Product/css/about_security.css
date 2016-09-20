@@ -1,0 +1,35 @@
+
+	.colo{color:#ffba95}
+	#ab_sec_f0 h1, #ab_sec_f1 h1, #ab_sec_f2 h1{padding-bottom:30px;font-size:50px;color:#365863}
+	#ab_sec_f0 p, #ab_sec_f1 p, #ab_sec_f2 p{font-weight:lighter;font-size:24px;line-height:42px}
+	#ab_sec_f0 .layout, #ab_sec_f1 .layout{padding:60px 0}
+	#ab_sec_f0{background:#b4da9c;color:#3f5b65}
+	#ab_sec_f0 .fl,#ab_sec_f1 .fr{width:525px;padding-top:40px}
+	#ab_sec_f1{color:#426875}
+	#ab_sec_f1 p{padding-left:32px;background:url("../images/security_yes.png") no-repeat left 7px}
+	#ab_sec_f2{background:#dfdfdf;color:#7e7e7e;padding:60px 0}
+	#ab_sec_f2 h1{text-align:center}
+	#ab_sec_f2 img{display:block;margin:0 auto}
+	#ab_sec_f2 ul{width:1107px;margin:0 auto;overflow:hidden}
+	#ab_sec_f2 ul li{width:241px;height:234px;border:1px solid #eaeced;border-top:none;float:left;position:relative;left:2px;top:0;padding:0 10px}
+	#ab_sec_f2 p{text-align:center;font-size:18px;color:#d2501a}
+	#ab_sec_f2{font-size:18px}
+	#ab_sec_f2 li + li{left:158px}
+	#ab_sec_f2 li + li + li {left:313px}
+	#ab_sec_f2 li + li p{color:#07be44}
+	#ab_sec_f2 li + li + li p{color:#20c1dc}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

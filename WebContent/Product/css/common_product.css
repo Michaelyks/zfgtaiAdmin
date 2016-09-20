@@ -1,0 +1,52 @@
+
+	/*产品新增公共样式-首页及产品首页共用*/
+	.red{color:#FC8027}
+	.black{color:black;}
+	.l_black{color:#555;}
+	.hot_product{
+		width:610px;
+		height:400px;
+		color:#555;
+		font-size:16px;
+	}
+	.hot_product_box{
+		width:530px;
+		height:160px;
+		margin:0 40px;
+		padding-top:30px;
+		text-align:center;
+	}
+	.title{font-size:20px;text-align:left;}
+	.xrzx{border:1px solid #FD8026;color:#FD8026;border-radius:20px;font-size:16px;margin-left:12px;padding:4px 14px;}
+	.s48{font-size:48px;}
+	.s36{font-size:36px;}
+	.choose{
+		background:#FD8026;
+		color:#fff;
+		font-size:20px;
+		display:inline-block;
+		height:50px;
+		line-height:50px;
+		width:180px;
+		text-align:center;
+		border-radius:5px;
+	}	
+	.choose:hover{
+		cursor:pointer;
+		background:#EF7925;
+		color:#FFF;
+	}
+	.choose1,.main .choose1:hover{background:#aaa;}
+	.rate{position:relative;}
+	.rate span{position:relative;}
+	.rate .text_bt{bottom:65px;}
+	.rate .text_bt1{bottom:70px;}
+	.rate .text_bt2{bottom:22px;}
+	
+
+	
+	
+	
+	
+	
+	

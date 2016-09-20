@@ -1,0 +1,24 @@
+/* CSS Document */
+.topic_banner { height:300px; background:url(../images/topic_banner_bg2.png) repeat center; }
+.topic_box { background:#cc2725; }
+.topic_box .form { width:520px; margin:0 auto; padding-bottom:15px; }
+.topic_box .form p { float:left; width:100%; padding:15px 0 0; }
+.topic_box .form label { float:left; font:24px/60px "Microsoft Yahei"; padding-right:10px; width:100px; color:#fff; }
+.topic_box .form input.txt1 { float:left; height:40px; padding:10px; font:24px/40px "Microsoft Yahei"; border:none; width:200px; }
+.topic_box .form span { float:left; height:60px; margin-left:10px; text-align:center; width:160px; background-color:#dadada; font:18px/60px "Microsoft Yahei"; }
+.topic_box .form input.txt2 { float:left; height:40px; padding:10px; font:24px/40px "Microsoft Yahei"; border:none; width:370px; }
+.topic_box .form input.btn { margin-left:110px; width:390px; height:60px; border:none; background-color:#ff8a00; font:24px/60px "Microsoft Yahei"; color:#fff; cursor:pointer; }
+.topic_box .form p.tips { padding-left:110px; font:14px/20px "Microsoft Yahei"; color:#fff; }
+.topic_box .inlet { padding-bottom:150px; text-align:center; }
+.ui_popup .box { box-shadow:none; border:solid 1px #ccc; width:490px; margin-left:-246px; border-radius:5px; overflow:hidden; height:auto; margin-top:-154px; }
+.ui_popup .box .tit { height:70px; background-color:#fff; border-bottom:solid 2px #33b5e5; padding:0 15px; }
+.ui_popup .box .tit h2 { font:bold 16px/70px "Microsoft Yahei"; color:#33b5e5; }
+.ui_popup .box .tit a.close { float:right; width:20px; height:20px; background:url(../images/close_btn2.png) no-repeat center; margin-top:25px; }
+.ui_popup .box .cnt { padding:0px 50px 30px; height:auto; }
+.ui_popup .box .cnt p { margin-top:20px; height:30px; }
+.ui_popup .box .cnt p label { float:left; text-align:right; width:100px; font:16px/30px "Microsoft Yahei"; color:#575757; padding-right:10px; }
+.ui_popup .box .cnt p label span { color:#f20000; }
+.ui_popup .box .cnt p input.txt { height:20px; padding:4px; border:solid 1px #b4b4b4; width:240px; border-radius:3px; }
+.ui_popup .box .cnt p input.btn2 { height:34px; width:93px; border:none; background:url(../images/confirm_btn_bg.png) no-repeat center; font:18px/32px "Microsoft Yahei"; color:#fff; }
+.ui_popup .box .cnt p input.btn1 { height:34px; width:93px; border:none; background:url(../images/cancel_btn_bg2.png) no-repeat center; font:18px/32px "Microsoft Yahei"; color:#fff; }
+.footer { padding-top:0; }

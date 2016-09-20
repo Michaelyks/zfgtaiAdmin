@@ -1,0 +1,13 @@
+ .home2{width:996px;margin:20px auto;}
+ .home2_body{border:1px solid #ccc; background-color:#fff; position:relative;box-shadow:0 0 5px rgba(45,45,45,0.5);}
+ .success p{padding-top:60px;text-align:center;font-size:40px;color:#3f3535;height:46px;line-height:46px;}
+ .success p img{padding-right:10px}
+ .success p span{color:#c84941}
+ .success p + p{font-size:30px;padding-top:25px}
+ .success p + div{margin-bottom:82px}
+ .success div a{font-size:32px;display:block;width:319px;height:80px;line-height:80px;color:white;text-align:center;margin:50px auto 0;background:url("../images/reg_check.png");}
+ 
+ 
+ 
+ 
+ 

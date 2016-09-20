@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zfgt.orm.InviteEarn" table="invite_earn" >
+        <id name="id" type="java.lang.String">
+            <column name="id" length="50" />
+            <generator class="uuid.hex" />
+        </id>
+        <property name="beInvitedId" type="java.lang.Long">
+            <column name="be_invited_id" default="0">
+                <comment>被邀请人id</comment>
+            </column>
+        </property>
+        <property name="inviteId" type="java.lang.Long">
+            <column name="invite_id" default="0">
+                <comment>邀请人id</comment>
+            </column>
+        </property>   
+        <property name="beInvitePhone" type="java.lang.String">
+            <column name="be_invite_phone" length="200">
+                <comment>被邀请人号码</comment>
+            </column>
+        </property> 
+               <property name="investorsId" type="java.lang.String">
+            <column name="investors_id" length="50">
+                <comment>投资记录id</comment>
+            </column>
+        </property>  
+                    <property name="copies" type="java.lang.Long">
+            <column name="copies" default="0">
+                <comment>购买份数;1元1份</comment>
+            </column>
+        </property>   
+        
+         <property name="earnMoney" type="java.lang.Double">
+            <column name="earn_money"   >
+                <comment>邀请投资奖励金额</comment>
+            </column>
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="type" length="9">
+                <comment>类型  1 邀请好友</comment>
+            </column>
+        </property>      
+        <property name="status" type="java.lang.String">
+            <column name="STATUS" length="9">
+                <comment> 状态 0：未发放 1：已发放 </comment>
+            </column>
+        </property>              
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property> 
+        <property name="updateTime" type="java.util.Date">
+            <column name="update_time" length="19" >
+                <comment>修改时间</comment>
+            </column>
+        </property>                                               
+        <property name="returnTime" type="java.util.Date">
+            <column name="return_time" length="19" >
+                <comment>发放时间奖励</comment>
+            </column>
+        </property>                                               
+        <property name="note" type="java.lang.String">
+            <column name="note" length="199">
+                <comment>备注</comment>
+            </column>
+        </property>      
+    </class>
+</hibernate-mapping>

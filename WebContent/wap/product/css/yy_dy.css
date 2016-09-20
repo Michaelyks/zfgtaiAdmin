@@ -1,0 +1,30 @@
+*CSS Reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0;padding: 0;border:0; font-size: 100%;font:inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block;
+}
+a { color: #222; text-decoration: none; outline: none; border:0px;-webkit-tap-highlight-color: rgba(255,255,255,0);}
+body {line-height:1; background: #fff;  font-family: "microsoft yahei";}
+img { border:0px; width: 100%;display: block;}
+ol,ul {list-style: none;}
+blockquote ,q { quotes: none;}
+blockquote:before, blockquote:after,q:before,q:after{content: ''; content:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+body { min-width: 320px; max-width: 640px; margin: 0 auto;}
+.clear { clear: both;}
+.clearfix::after{content:"";display:block;height:0;clear:both;visibility:hidden}
+
+.redbody { background: #eb444e;}
+.pic-box { width: 100%; height: auto; float:left; margin-bottom: -2px;}
+
+.dy-center { padding-top: 30px;}
+.titlt-ct { margin: 0px auto; width: 50%;}
+.hdgl-word { padding:45px 15% 10px 15%; margin: 0px auto; color:#fff; font-size:1em; line-height: 1.4em; background: url(../img/hdgl_head_02.png) 0px 0px/ 100% auto rgba(243,87,96,1) no-repeat;}
+.hdgl-ft { background: url(../img/hdgl_footer_02.png) bottom center / 100% auto rgba(243,87,96,1) no-repeat; height:40px;}
+.gz-list { width: 86%; margin:30px auto 20px; padding: 0px; color: #fff;}
+.gz-list li { font-size:1em; line-height: 1.4em; margin-bottom: 15px;}
+.gz-list li .num {color: #ffd801;}
+.ft-jp { width: 90%; margin:20px auto 10px; padding: 0px;}
+.ft-jp li { width:27.33%; float:left; padding:0px 3%; margin: 0px 0px 10px 0px;}
+.dy-foot { background: url(../img/foott_yuan_02.png) center bottom / 100% 100% no-repeat;}
+.dy-foot .dy-link { width: 22%; display: block; margin: 0px auto;}

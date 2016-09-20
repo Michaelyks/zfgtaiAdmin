@@ -1,0 +1,72 @@
+/* CSS Document */
+.static_head { height:40px; padding:25px 0 20px; }
+.static_head li , .about_us_list li { float:left; width:100px; height:40px; margin-right:15px; }
+.static_head li a, .about_us_list a { display:block; height:38px; border:solid 1px #b4b4b4; font:16px/38px "Microsoft Yahei"; text-align:center; background-color:#fff; }
+.static_head li.on a { background-color:#094; border:solid 1px #094; color:#fff; }
+.about_us_list{position:absolute; left:-1px; top:-1px;}
+.about_us_list li{float:none;}
+
+/*credential*/
+.credential { border:solid 1px #b4b4b4; background:#fff; padding:40px 130px 150px; position:relative; }
+.credential span.bg { position:absolute; left:0px; bottom:0px; height:150px; width:100%; background:#fff url(../images/static_cnt_bg.png) no-repeat center 30%; }
+.credential h4 { font:20px/40px "Microsoft Yahei"; color:#666; }
+.credential p { text-align:center; padding:20px 0; }
+.credential ul { padding:20px 0; height:230px; }
+.credential ul li { float:left; margin-right:10px; }
+
+/*about_us*/
+.about_us { border:solid 1px #b4b4b4; background:#fff; padding:40px 130px 150px; position:relative; }
+.about_us span.bg { position:absolute; left:0px; bottom:0px; height:150px; width:100%; background:#fff url(../images/static_cnt_bg.png) no-repeat center 30%; }
+.about_us h4 { font:20px/40px "Microsoft Yahei"; color:#666; margin-bottom:40px; }
+.about_us p { text-indent:2em; font:18px/36px "Microsoft Yahei"; color:#666; }
+
+/*contact_us*/
+.contact_us { border:solid 1px #b4b4b4; background:#fff; padding:40px 130px 150px; position:relative; }
+.contact_us span.bg { position:absolute; left:0px; bottom:0px; height:150px; width:100%; background:#fff url(../images/static_cnt_bg.png) no-repeat center 30%; }
+.contact_us h4 { font:20px/40px "Microsoft Yahei"; color:#666; }
+.contact_us .map { padding:20px 0; text-align:center; }
+.contact_us p { text-indent:2em; font:18px/36px "Microsoft Yahei"; color:#666; }
+
+/*help_menu*/
+.help_menu { width:258px; padding:40px 20px; border:solid 1px #b4b4b4; background-color:#fff; }
+.help_menu dl { margin-bottom:20px; }
+.help_menu dl dt { padding:7px 14px; background-color:#eee; height:22px; font:16px/22px "Microsoft Yahei"; }
+.help_menu dl dt i { float:left; height:22px; width:22px; background:url(../images/help_menu_ico.png) no-repeat center top; margin-right:10px; }
+.help_menu dl dd { padding:10px; display:none; font:14px/30px "Microsoft Yahei"; }
+.help_menu dl.on { margin-bottom:0px; }
+.help_menu dl.on dt { color:#3f9200; }
+.help_menu dl.on dt i { background-position:center bottom; }
+.help_menu dl.on dd { display:block; }
+.help_menu dl.on dd a { display:block; height:30px; padding:0 36px; background:url(../images/help_menu_a_ico.png) no-repeat 15px 10px; }
+.help_menu dl.on dd a:hover { color:#d24740; background-position:15px -21px; }
+.help_menu dl.on dd a.curr { color:#d24740; background-position:15px -21px; }
+
+/*help_main*/
+.help_main { width:563px; border:solid 1px #b4b4b4; color:#666; padding:40px 40px 150px; position:relative; background-color:#fff; }
+.help_main span.bg { position:absolute; left:0px; bottom:0px; height:150px; width:100%; background:#fff url(../images/static_cnt_bg.png) no-repeat center 30%; }
+.help_main a:hover { color:#d24740; }
+.help_main h4 { font:18px/36px "Microsoft Yahei"; color:#d24740; }
+.help_main ul { padding-top:30px; }
+.help_main li { font:14px/30px "Microsoft Yahei"; }
+.help_main h5 { font:14px/32px "Microsoft Yahei"; margin:15px 0 0; }
+.help_main .txt { font:14px/24px "Microsoft Yahei"; margin-top:15px; }
+.help_main .txt p { padding:3px 0; }
+.help_main .txt h6 { margin:20px 0; }
+.help_main .pic { text-align:center; margin-top:15px; }
+.help_main .pic p { display:inline-block; height:36px; padding:0 20px; border:solid 1px #b4b4b4; margin:15px 0; font:18px/36px "Microsoft Yahei"; }
+.help_main .pic img { padding:5px; border:solid 1px #b4b4b4; }
+.help_main .page { padding:20px 0; font:14px/30px "Microsoft Yahei"; }
+.help_main a.seeall { float:right; font:14px/30px "Microsoft Yahei"; margin-top:50px; }
+
+/*team_member*/
+.team_member { }
+.team_member h4 { margin-bottom:0px; }
+.team_member .des { font:14px/24px "Microsoft Yahei"; color:#666; }
+.team_member .list { padding-bottom:20px; }
+.team_member .list dl { padding:15px 0; }
+.team_member .list dt { float:left; padding:2px; border:solid 1px #eee; background-color:#f9f9f9; }
+.team_member .list dd { margin-left:150px; }
+.team_member .list dd h5 { height:36px; border-bottom:solid 1px #1480cc; font:18px/36px "Microsoft Yahei"; color:#1480cc; margin-bottom:10px; }
+.team_member .list dd h5 span { float:right; }
+.team_member .list dd p { font:14px/24px "Microsoft Yahei"; text-indent:0; }
+.team_member .expimg { border:solid 4px #1480cc; border-radius:5px; margin-top:10px; }

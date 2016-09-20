@@ -1,0 +1,19 @@
+/* CSS Document */
+.ui_popup .pop_lottery { background-color:#f8edcf; width:630px; margin:-250px 0 0 -315px; height:auto; }
+.pop_lottery a.closebtn { position:absolute; right:0px; top:0px; width:60px; height:60px; background:url(../images/pop_lottery_close.png) no-repeat center; }
+.pop_lottery .head { height:60px; padding-left:20px; position:absolute; top:0px; left:0px; }
+.pop_lottery .banner { height:210px; }
+.pop_lottery .tips { height:54px; font:20px/54px "Microsoft Yahei"; text-align:center; color:#6f250f; }
+.pop_lottery .tips span { color:#f44444; }
+.pop_lottery .cont { margin:0 40px; background-color:#fff; padding:0 10px; }
+.pop_lottery .cont dl { padding:10px; }
+.pop_lottery .cont dt { float:left; width:42px; padding-right:6px; height:42px; font:12px/42px "Microsoft Yahei"; color:#fff; background:url(../images/invite_friends_ico.png) no-repeat center; text-align:center; }
+.pop_lottery .cont dd { margin-left:60px; overflow:hidden; }
+.pop_lottery .cont dd h4 { font:14px/24px "Microsoft Yahei"; color:#333; }
+.pop_lottery .cont dd p { font:12px/20px "Microsoft Yahei"; color:#666; }
+.pop_lottery .cont dd p span { color:#d24740; }
+.pop_lottery .cont dd img { float:right; width:80px; }
+.pop_lottery .link { padding:10px 30px; height:32px; }
+.pop_lottery .link label { float:left; font:14px/32px "Microsoft Yahei"; color:#666; }
+.pop_lottery .link input.txt { float:left; width:385px; padding:5px; height:20px; border:solid 1px #ccc; font:12px/20px "Microsoft Yahei"; color:#999; }
+.pop_lottery .link input.btn { float:right; width:92px; height:32px; border:none; background:url(../images/topup_btn_bg.png) no-repeat center; font:14px/30px "Microsoft Yahei"; color:#fff; border-radius:16px; }

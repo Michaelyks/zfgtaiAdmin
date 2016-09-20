@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+} 
+img{
+  border:none;
+  outline:none;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+input, textarea {
+  outline: none;
+  background: none;
+  border: none;
+    font-family: "微软雅黑";
+    resize: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+body{font-family:Microsoft Yahei;font-size: 14px;background: #fff;}
+
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+input[type='submit'],input[type='button']{-webkit-appearance:none;border-radius:0;}
+
+
+
+
+
+
+
+
+

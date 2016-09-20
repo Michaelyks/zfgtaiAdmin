@@ -1,0 +1,39 @@
+	/* 此样式表为基本资料和认证资料共用*/
+	.my_account .my_info{min-height:643px;padding-left:40px;width:949px;color:#5e5e5e}	
+	.info_list{border:1px solid #e6e6e6;margin-bottom:20px;width:906px;cursor:pointer;}
+	.info_1 .list_title{background:url("../images/userinfo_dl.png") no-repeat 38px center}
+	.info_2 .list_title{background:url("../images/userinfo_sm.png") no-repeat 38px center}
+	.info_2 .status_fal{background:url("../images/userinfo_sm2.png") no-repeat 38px center}
+	.info_list .list_title, .info_list .list_title2{position:relative;padding:28px 0 28px 140px;min-height:65px;}
+	.info_list .list_title2{cursor:default;background:url("../images/userinfo_zc.png") no-repeat 38px center}
+	.info_list .list_title p:first-child, .info_list .list_title2 p:first-child{padding:10px 0 5px;font-size:16px;font-weight:bold}
+	.info_list .list_title p:first-child .phone_num{color:#68caf0;font-size:14px;padding-left:10px}
+	.info_list .list_title .info_change{font-weight:bold;display:block;position:absolute;right:25px;top:45px;padding:0 15px;height:28px;line-height:28px;text-align:center;border:1px solid #e6e6e6;border-radius:5px}
+	.info_list .hide_list{display:none;border-top:1px solid #e6e6e6;background:#f5f5f5;padding:20px 0;cursor:default}
+	.info_list .succ{padding:20px 0 20px 45px;font-size:14px;line-height:25px}
+	.info_list .hide_list li{padding-bottom:10px;position:relative}
+	.info_list .hide_list li .phone_ver{display:block;*display:inline;display:inline-block;padding:5px 10px;font-size:14px;color:#fff;border-radius:5px;background:#f5493c;vertical-align:middle}
+	.info_list .hide_list label{display:block;*display:inline;display:inline-block;width:110px;text-align:right;padding-right:10px;font-weight:bold;vertical-align:middle}
+	.info_list .hide_list input{padding:8px 5px;margin-right:10px;vertical-align:middle;width:269px}
+	.info_list .hide_list .xiugai{cursor:pointer;margin-left:120px;display:block;*display:inline;display:inline-block;font-size:14px;width:115px;height:38px;line-height:38px;text-align:center;color:#fff;background:#f5493c;border-radius:5px}
+	.info_list .hide_list .forget_zf{margin-left:80px;color:#f5493c}
+	.info_list .list_title2 span a{font-weight:bold}
+	.info_list .hide_list .suppor_bank{color:#68abf0;padding-right:10px;cursor:pointer}
+	.info_list .hide_list .bank_ver{display:block;position:absolute;top:0;left:303px;color:#6A4C00;width:100px;height:35px;line-height:35px;text-align:center;background:#FFD15E;cursor:pointer}
+	.info_list .hide_list .bang_list{display:none;border: 1px solid #85B9DD;position:absolute;top:30px;left:415px;width:385px;padding:5px;background:#fff}
+	.info_list .hide_list .bang_list li{float: left; margin-bottom: 0;height: 35px;line-height: 35px;font-size: 15px;font-family: "Microsoft Yahei";}
+	.info_list .hide_list .bang_list li img{vertical-align:middle;padding:0 6px}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,78 @@
+/* CSS Document */
+.sear_left { width:960px; margin-top:25px; }
+.sear_right { width:160px; margin-top:25px; }
+
+/*filter_cate*/
+.filter_cate { border:solid 1px #b4b4b4; background-color:#fff; padding:10px 30px; }
+.filter_cate h4 { height:32px; font:16px/32px "Microsoft Yahei"; }
+.filter_cate h4 span { float:left; }
+.filter_cate h4 a { padding:0 6px; margin:5px 0 0 5px; height:22px; font:12px/22px "Microsoft Yahei"; color:#999; background-color:#e4e4e4; border-radius:3px; }
+.filter_cate dl { height:32px; }
+.filter_cate dl dt { float:left; font:16px/32px "Microsoft Yahei"; width:90px; }
+.filter_cate dl dd { margin-left:90px; padding:2px; height:28px; font:14px/28px "Microsoft Yahei"; }
+.filter_cate dl dd a { float:left; width:80px; height:28px; margin-right:10px; color:#666; border-radius:14px; text-align:center; }
+.filter_cate dl dd a.on { background-color:#0697da; color:#fff; }
+.search2_list { margin-top:10px; }
+.search2_list .total { height:24px; padding:10px 10px 10px 64px; background:url(../images/chart_ico.png) no-repeat 30px center; border:solid 1px #b4b4b4; background-color:#fff; margin-bottom:10px; font:14px/24px "Microsoft Yahei"; color:#474747; }
+.search2_list .total p { float:left; width:30%; text-align:center; }
+.search2_list .total p:nth-child(1) { width:40%; }
+.search2_list .total p span { font-size:18px; color:#d24740; }
+.search2_list .total p em { color:#d24740; }
+.search2_list .item { position:relative; border:solid 1px #c3c3c3; margin-bottom:10px; padding:20px 20px 20px 36px; background-color:#fff; }
+.search2_list .invest_z { position:absolute; width:96px; height:96px; right:-1px; top:-1px; background:url(../images/yxz_ico01.png) no-repeat center; z-index:9;}
+.search2_list .invest_s { position:absolute; width:96px; height:96px; right:-1px; top:-1px; no-repeat center; z-index:9;}
+.search2_list .invest_j { position:absolute; width:96px; height:96px; right:-1px; bottom:-1px; background:url(../images/yjs_ico.png) no-repeat center; z-index:9; }
+.search2_list .title { height:30px; font:18px/30px "Microsoft Yahei"; }
+.search2_list .title h4 { text-shadow:1px 1px 0px #adcae8; }
+.search2_list .title h4 a { color:#1480cc; }
+.search2_list .title h4 a + img{padding-left:10px;vertical-align:middle;margin-top:-7px}
+.search2_list .title h4 a:hover { text-decoration:underline; }
+.search2_list .title span.time { float:right; font-size:14px; color:#666; }
+.search2_list .title span.time i { color:#d24740; font-style:normal; }
+.search2_list .data { padding:20px 0; }
+.search2_list .data li { float:left; width:20%; text-align:center; color:#474747; font:18px/36px "Microsoft Yahei"; position:relative; }
+.search2_list .data li img{padding-left:26px}
+.search2_list .data li p { font-size:14px; }
+.search2_list .data li p span { font-size:24px; }
+.search2_list .data li p font { font-size:18px; }
+.search2_list .data li i { position:absolute; width:18px; height:18px; background:url(../images/tips_btn.png) no-repeat 0 0; top:10px; right:10px; }
+.search2_list .data li i.hover { background-position:0px -18px; }
+.search2_list .data li .tips { position:absolute; border:solid 1px #ccc; background-color:#fff; padding:10px; font:12px/18px "sunmin"; display:none; z-index:99; }
+.search2_list .data li .tips s { position:absolute; top:-8px; left:50%; margin-left:-7px; background:url(../images/arrow_top.png) no-repeat center; width:14px; height:8px; }
+.search2_list .bot { height:54px; }
+.search2_list .bot a.btn { float:right; height:54px; width:158px; text-align:center; color:#fff; background-color:#1480cc; border-radius:5px; font:24px/54px "Microsoft Yahei"; }
+.search2_list .bot a.link { float:right; font:18px/27px "Microsoft Yahei"; color:#1480cc; margin-right:100px; }
+.search2_list .bot ul { float:left; width:500px; font:14px/27px "Microsoft Yahei"; margin-top:16px; padding-left:57px;}
+.search2_list .bot li { float:left; height:27px; overflow:hidden; }
+.search2_list .bot li.li_1,.search2_list .bot li.li_3 { width:43%; }
+.search2_list .bot li.li_2,.search2_list .bot li.li_4 { width:57%; }
+.search2_list .bot li label { float:left; color:#878787; }
+.search2_list .bot li p { float:left; }
+.search2_list .bot li.li_1 p { width:120px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+.search2_list .bot li p span { font-size:12px; color:#878787; }
+.search2_list .bot li i { float:left; width:18px; height:18px; margin-left:5px; background:url(../images/tips_btn.png) no-repeat 0 0; margin-top:5px; }
+.search2_list .bot li i.hover { background-position:0px -18px; }
+.search2_list .bot li p.pross { height:13px; font-size:0px; width:120px; margin-top:8px; background-color:#d2d0d0; border-radius:13px; }
+.search2_list .bot li p.pross em { float:left; width:40%; height:13px; border-radius:13px; background-color:#f2938e; }
+.search2_list .bot li b { float:left; color:#646464; padding-left:5px; font-size:12px; font-weight:normal; }
+.search2_list .bot li .tips { position:absolute; border:solid 1px #ccc; background-color:#fff; padding:10px; font:12px/18px "sunmin"; display:none; z-index:99; }
+.search2_list .bot li .tips s { position:absolute; top:-8px; left:50%; margin-left:-7px; background:url(../images/arrow_top.png) no-repeat center; width:14px; height:8px; }
+.search2_list .bot li font { color:#878787; }
+.search2_list .seal_ico { position:absolute; width:131px; height:113px; background:url(../images/seal_ico.png) no-repeat center; top:10px; right:5px; }
+.search2_list .seal_ico2 { position:absolute; width:131px; height:113px; background:url(../images/seal_ico2.png) no-repeat center; top:10px; right:5px; }
+.search2_list .page { height:29px; padding:30px 0; }
+.search2_list .page ul { float:left; height:29px; }
+.search2_list .page ul li { float:left; margin:0 2px; height:29px; }
+.search2_list .page ul li a { display:block; border:solid 1px #b4b4b4; padding:0 10px; background-color:#fff; color:#666; font-size:14px; height:27px; line-height:27px; }
+.search2_list .page ul li.first a,.search2_list .page ul li.prev a { background:#fff url(../images/page_prev.png) no-repeat 10% center; padding-left:18px; }
+.search2_list .page ul li.next a,.search2_list .page ul li.last a { background:#fff url(../images/page_next.png) no-repeat 90% center; padding-right:18px; }
+.search2_list .page ul li a:hover { background-color:#1480cc; border:solid 1px #1480cc; color:#fff; }
+
+/*noun_explain*/
+.noun_explain { padding-top:10px; overflow:hidden; }
+.noun_explain h2 { font:16px/30px "Microsoft Yahei"; }
+.noun_explain ul { margin-left:-2px; width:168px; }
+.noun_explain li { float:left; margin:0 2px; display:inline; width:78px; height:26px; font:14px/24px "Microsoft Yahei"; text-align:center; margin-bottom:5px; }
+.noun_explain li a { display:block; height:24px; background-color:#fff; border:solid 1px #b8b8b8; }
+.noun_explain p { text-align:right; font:14px/30px "Microsoft Yahei"; }
+.maiwang{position:absolute;top:33px;right:488px}

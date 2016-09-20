@@ -1,0 +1,13 @@
+
+	.colo{color:#ffba95}
+	#ab_adv_f0 h1, #ab_adv_f1 h1, #ab_adv_f2 h1, #ab_adv_f3 h1{padding-bottom:30px;font-size:50px}
+	#ab_adv_f0 p, #ab_adv_f1 p, #ab_adv_f2 p, #ab_adv_f3 p{font-weight:lighter;font-size:24px;line-height:42px}
+	#ab_adv_f0 .layout, #ab_adv_f1 .layout, #ab_adv_f2 .layout, #ab_adv_f3 .layout{padding:120px 0}
+	#ab_adv_f0{background:#35999e;color:#fff}
+	#ab_adv_f0 .layout{padding:120px 0}
+	#ab_adv_f0 .fl,#ab_adv_f1 .fr, #ab_adv_f2 .fl, #ab_adv_f3 .fr{width:525px}
+	#ab_adv_f1, #ab_adv_f3{color:#324a52}
+	#ab_adv_f1 h1, #ab_adv_f3 h1{color:#426875}
+	#ab_adv_f1 img{padding-top:80px}
+	#ab_adv_f2{background:#ab9e52;color:#fff}
+	#ab_adv_f3  .fr{padding-top:40px}

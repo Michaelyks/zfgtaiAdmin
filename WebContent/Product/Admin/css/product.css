@@ -1,0 +1,14 @@
+
+	.main .top, .main .middle{width:775px;;border:1px dashed black;margin:50px auto;padding:20px 0 20px 20px}
+	.main .top dl{width:350px;float:left;font-size:14px}
+	.main .top dl dt{padding:6px 0}
+	.main .top dl dd{padding:3px 0}
+	.main .top dl dd{padding-left:30px}
+	.main .middle span{padding-right:15px;float:left}
+	.main .middle ul{float:left}
+	.main .bottom{width:775px;margin:50px auto 20px;text-align:center}
+	.main .bottom a{width:122px;height:70px;line-height:70px;display:block;*display:inline;display:inline-block;margin-right:88px;text-align:center;font-size:16px;border:1px solid #ddd;border-radius:5px}
+	.main .bottom a + a{margin-right:0} 
+	
+	
+	

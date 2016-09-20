@@ -1,0 +1,45 @@
+	/*此样式表为基本资料和认证资料所共有*/
+	.info .info_li{border:1px solid #ddd;cursor:pointer;position:relative;}
+	.info .info_li .click{padding:15px 0;}
+	.info .info_li:hover{border:1px solid #1480CC}
+	.info .info_li .wdzh_zl_left{width:350px;text-align:left;height:43px;line-height:43px}
+	.info .info_li .wdzh_zl_left font{position:relative;display:block;*display:inline;display:inline-block;width:260px}
+	.info .info_li .wdzh_zl_left font .i_top{position:absolute;top:-36px;left:0;}
+	.info .info_li .wdzh_zl_left font .i_bot{position:absolute;top:-14px;left:0;}
+	.info .info_li .wdzh_zl_left .yx_n, .info .info_li .wdzh_zl_left .yx_y, .info .info_li .wdzh_zl_left .sj_y, .info .info_li .wdzh_zl_left .sj_n, .info .info_li .wdzh_zl_left .sm_n,
+	.info .info_li .wdzh_zl_left .sm_y, .info .info_li .wdzh_zl_left .mm_n, .info .info_li .wdzh_zl_left .nc_n, .info .info_li .wdzh_zl_left .sj_n, .sm_y, .info .info_li .wdzh_zl_left .zc_n{display:block;*display:inline;display:inline-block;width:38px;height:38px;background:url("../images/newMember.png") no-repeat -120px -341px;vertical-align:middle;margin:0 20px}
+	.info .info_li .wdzh_zl_left .yx_y{background-position: -120px -300px}
+	.info .info_li .wdzh_zl_left .sj_y{background:url("../images/user_sj.png")}
+	.info .info_li .wdzh_zl_left .sj_n{background:url("../images/user_sj.png")}
+	.info .info_li .wdzh_zl_left .sm_y{background:url("../images/user_rz.png")}
+	.info .info_li .wdzh_zl_left .sm_n{background:url("../images/user_rz.png")}
+	.info .info_li .wdzh_zl_left .mm_n{background:url("../images/user_mm.png")}
+	.info .info_li .wdzh_zl_left .nc_n{background:url("../images/user_nc.png")}
+	.info .info_li .wdzh_zl_left .zc_n{background:url("../images/user_zc.png")}
+	.info .info_li .wdzh_zl_left .user_wbd{color:#f60;margin-left:5px}
+	.info .info_li .wdzh_zl_left .user_bd{color:#34c400}
+	.info .info_li .wdzh_zl_left .user_gray{color:#a5a5a5}
+	.info .info_li span + span{display:block;*display:inline;display:inline-block;padding:1px 5px;border:1px solid #ddd;border-radius:5px;position:absolute;right:20px;top:24px;color:#a5a5a5}
+	.info .info_li .hide{background:#ECECEC;padding:5px 0;cursor:default;display:none}
+	.info .info_li .hide input{width:172px;color:#666;vertical-align:middle}
+	.info .info_li .hide .check_{display:none;font-size:12px;width:152px;height:20px;line-height:20px;border: 1px solid red;margin-left:115px;padding-left:20px;background:url("../images/gantan.png") no-repeat left center white;color:red}
+	.info .info_li .hide span{display:block;color:#666}
+	.info .info_li .hide span div{width:370px;position:relative}
+	.info .info_li .hide span p{padding:2px 0 2px 0}
+	.info .info_li .hide span .inp_cum{display:block;*display:inline;display:inline-block;width:115px;text-align:right;margin:0}
+	.info .info_li .hide span p input + a{display:bolck;*display:block;display:inline-block;padding:2px 3px;background:#da2c36;color:white;border-radius:5px;cursor:pointer;vertical-align:middle}
+	.info .info_li .hide span p input + .renz{width:70px;text-align:center}
+	.info .info_li .hide span div a{display:inline-block;padding:2px 4px;border:1px solid #ddd;border-radius:5px;background:#da2c36;color:white;margin:5px 0 0 114px;cursor:pointer}
+	.info .info_li .hide span div a + a{font-size:12px;position:absolute;right:0;border:none 0;background:none;color:red}
+		.info .info_li .hide span div a + a:hover{text-decoration:underline;color:#f60}
+	.info .info_li .hide span .bank_list{background:none;color:#80ADD8}
+	.info .info_li .hide span .b_list{display:none;background:white;z-index:11;position:absolute;top:157px;left:305px;width:300px;border:1px solid #85B9DD}
+	.info .info_li .hide span .b_list ul{padding:5px;color:#3FA9F2;margin:0}
+	.info .info_li .hide span .b_list ul li{float:left;margin-bottom:0;height: 35px;line-height: 35px;font-size: 15px;font-family: "Microsoft Yahei";}
+	.info .info_li .hide span .b_list ul li img{vertical-align:middle;padding:0 5px}
+	.wdzh{padding-bottom:65px}
+	.info .info_li .hide .succ_tip{padding:5px 0 5px 83px;line-height:22px}
+	
+	
+	
+	

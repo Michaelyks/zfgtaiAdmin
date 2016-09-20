@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<title>中泰理财-后台登录</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+		<div data-role="page">
+			<div data-role="header" data-theme="a">
+				<h1>中泰理财-后台登录</h1>
+			</div>
+
+			<div data-role="content">
+				<p align="center"><img src="images/logo.png" alt="" /></p>
+				 <form action="" method="post">
+				 	<div data-role="fieldcontain">
+				 		<label for="fname">用户名:</label>
+						<input type="text" name="users.username" id="fname">
+							<label for="fname">密码:</label>
+						<input type="password" name="users.password" id="fpassword">
+							<label for="fname"></label>
+						<a href="#" onclick="adminLogin();"  data-role="button">登录</a>
+				 	</div>
+				 </form>
+			</div>
+		</div>
+<script type="text/javascript">
+  function adminLogin(){
+	  var url="http://localhost:8080/wgtz/Product/loginBackground!adminLogin.action?";
+	  var username=$("#fname").val();
+	  var password=$("#fpassword").val();
+	  if(username==null||""==username){
+		  alert("用户名不能为空");
+		  return false;
+	  }
+	  if(password==null||""==password){
+			 alert("密码不能为空");
+			 return false;
+		 }
+	  var formData="users.username="+username;
+	  formData+="&users.password="+password;
+	  $.post(url,formData,function(data){
+	  		console.log(data);
+			 if("ok"==data.status){			 
+				 window.location.href="http://localhost:8080/wgtz/Product/Admin/login/welcome.jsp";
+			 }else{			 
+				 	alert(data.json);
+				 	return false;
+			 }
+		 });
+  }
+</script>		
+</body>
+</html>

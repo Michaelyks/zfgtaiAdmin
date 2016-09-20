@@ -1,0 +1,22 @@
+
+	.main table{width:850px;margin:0 auto;border-top:1px solid #ddd;border-left:1px solid #ddd}
+	.main .top .select, .main .top .select + div{float:left}	
+	.main .top .select + div{width:104px;height:40px;line-height:40px;margin:17px 0 0 17px;border-radius:5px;text-align:center;border:1px solid #009DDA}
+	.main .top .select{width:760px;padding:20px 0 20px 25px;margin-left:17px;border:2px solid #ddd;margin-bottom:20px}
+	.main .top .select li{float:left;padding-right:20px;}
+	.main .top .select li input, .main .select li select{height:26px;vertical-align:middle}
+	.main .top .select li select{border-radius:5px;border-color:#009DDA;margin-right:5px}	
+	.main .top .select li + li{margin-right:30px}
+	.main .top .select li + li a{display:block;width:100px;height:32px;line-height:32px;text-align:center;border:1px solid #009DDA;border-radius:5px;margin-top:-2px}
+	.main table td{text-align:center;padding:6px 0;border-bottom:1px solid #ddd;border-right:1px solid #ddd}
+	.main .middle .product_num{text-align:right;padding:0 80px 10px 0}
+	.main .middle .product_num span{text-decoration:underline}
+	.main .bottom{text-align:center;padding:20px}
+	.main .bottom .balance{text-decoration:underline}
+	.main .bottom .page{padding-top:20px}
+	.main .bottom .page a{display:block;*display:inline;display:inline-block;padding:4px;border:1px solid #ddd;border-radius:5px}
+	
+	
+	
+	
+	

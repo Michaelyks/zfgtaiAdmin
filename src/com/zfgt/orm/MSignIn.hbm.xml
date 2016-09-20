@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zfgt.orm.MSignIn" table="m_sign_in" >
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="usersId" type="java.lang.Long">
+            <column name="users_id" default="0">
+                <comment>用户id</comment>
+            </column>
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="type" length="9">
+                <comment>签到来源（1:PC端  2:WAP端   3:移动端）</comment>
+            </column>
+        </property>      
+        <property name="status" type="java.lang.String">
+            <column name="status" length="9">
+                <comment> 状态   0：未签到     1：已签到  </comment>
+            </column>
+        </property>              
+        <property name="insertTime" type="java.util.Date">
+            <column name="insert_time" length="19" >
+                <comment>插入时间</comment>
+            </column>
+        </property>                                        
+        <property name="note" type="java.lang.String">
+            <column name="note" length="199">
+                <comment>备注</comment>
+            </column>
+        </property>
+        <property name="lianxuDay" type="java.lang.Long">
+            <column name="lianxu_day">
+                <comment>连续签到天数</comment>
+            </column>
+        </property>
+       <many-to-one name="users" class="com.zfgt.orm.Users"   lazy="false"  insert="false"  update="false" fetch="join" not-found="ignore">
+            <column name="users_id" />
+        </many-to-one>       
+    </class>
+</hibernate-mapping>

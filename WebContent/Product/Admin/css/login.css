@@ -1,0 +1,29 @@
+	
+	.nam{margin-bottom:80px}
+	.nam p{font-size:40px;text-align:center;margin:30px 0 10px}
+	.nam p + div{text-align:right;}
+	.nam p + div span{margin-right:100px;padding: 10px 20px;border:1px solid #ddd; }
+	.login form{width:300px;margin:0 auto;background:#ddd;padding-bottom:20px;margin-bottom:10px}
+	.login form p{padding:15px 0 15px 20px;font-size:18px;color:#666}
+	.login form ul li{padding-left:10px;background:white;width:190px;height:30px;line-height:30px;border:1px solid #ddd;margin:0 0 10px 20px;position:relative;}
+	.login form ul li input{z-index:10;padding-left:10px;border:none 0;width:190px;height:30px;line-height:30px;position:absolute;top:0;left:0;background:transparent}
+	.login form ul + div {text-align:right;padding:15px 0 }
+	.login form ul + div a{padding-right:100px}
+	.login form ul + div + a{display:block;margin: 0 auto;width:280px;height:35px;line-height:35px;text-align:center;color:white;background:blue;font-size:20px}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

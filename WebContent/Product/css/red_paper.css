@@ -1,0 +1,29 @@
+	.mainright{background:white}
+	.recharge_box { padding-bottom:15px; }
+	.recharge_box .asset { font:12px/60px "Microsoft Yahei"; color:#d24740; height:60px;  font-size: 24px; }
+	.recharge_box .cntbox { border:solid 1px #c8c8c8; border-radius:2px; box-shadow:inset 0px 0px 1px #c8c8c8; margin-top:10px; padding:20px; }
+	.red_head li{float:left;width:60px;height:30px;line-height:30px;text-align:center;border:1px solid #ddd;border-top-left-radius:5px;border-top-right-radius:5px;margin-right:10px}
+	.red_head li:hover{cursor:pointer;}
+	.red_head .on:hover{cursor:default}
+	.red_head .on{border-bottom:1px solid white}
+	/* 第二版红包 */
+	.red_paper ul li{width:200px;float:left;padding:10px;position:relative;top:0;left:0}
+	.red_paper ul li img{width:200px;height:170px;cursor:pointer}
+	.mingxi_neirong{position:absolute;top:13px;left:10px;width:200px;height:150px;font-size:16px;color:#E1F600}
+	.mingxi_neirong p{font-weight:bold;text-align:center;font-size:16px;padding-top:15px}
+	.mingxi_neirong ul li{margin:0;padding:0;text-align:center}
+	.red_paper{display:none;border:1px solid #ddd;width:666px;margin-top:-1px}
+	.ing .mingxi_neirong{top:30px;color:#9a0002;font: 12px/20px "Microsoft Yahei";}
+	.over table{width:666px}
+	.over table img{width:20px;hieght:15px;vertical-align:middle}
+	.over table td{padding:5px;text-align:center;border-bottom:1px solid #ddd}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

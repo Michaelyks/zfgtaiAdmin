@@ -1,0 +1,24 @@
+/* CSS Document */
+.invite_friends { padding:20px 0; }
+.invite_friends .info { font:14px/54px "Microsoft Yahei"; color:#666; padding:0 20px; border-bottom:dashed 1px #9e804b; height:54px; overflow:hidden; }
+.invite_friends .info span { font-size:18px; color:#d24740; }
+.invite_friends .info em { font-size:18px; }
+.invite_friends .notice { padding:0 20px; color:#666; }
+.invite_friends .notice dl { padding:10px 0; }
+.invite_friends .notice dt { font:18px/36px "Microsoft Yahei"; }
+.invite_friends .notice dd { font:14px/24px "Microsoft Yahei"; }
+.invite_friends .notice dd label { float:left; width:48px; height:42px; background:url(../images/invite_friends_ico.png) no-repeat center; font:12px/42px "Microsoft Yahei"; color:#fff; text-align:center; margin-right:10px; }
+.invite_friends .notice dd .code label { margin:35px 10px 35px 0; }
+.invite_friends .notice dd .code img { float:right; }
+.invite_friends .notice dd .code h4 { font:14px/24px "Microsoft Yahei"; padding-top:35px; }
+.invite_friends .notice dd .code p { font:12px/20px "Microsoft Yahei"; }
+.invite_friends .notice dd .link { padding:10px 0; }
+.invite_friends .notice dd .link label { margin-bottom:32px; }
+.invite_friends .notice dd .link p { font:12px/20px "Microsoft Yahei"; }
+.invite_friends .notice dd .link input.txt { width:420px; border:solid 1px #ccc; padding:5px; color:#999; height:20px; }
+.invite_friends .notice dd .link input.btn { width:66px; height:32px; background-color:#d7bc92; border:none; font:14px/30px "Microsoft Yahei"; color:#fff; margin-left:10px; }
+.invite_friends .notice dd .scan { padding-top:20px; }
+.invite_friends .notice dd .scan label { margin-top:30px; margin-right:10px; }
+.invite_friends .notice dd .scan img { float:right; }
+.invite_friends .notice dd .scan h4 { margin-top:30px; }
+.invite_friends .notice dd .scan p { font:12px/20px "Microsoft Yahei"; }

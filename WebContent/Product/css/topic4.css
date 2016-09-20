@@ -1,0 +1,5 @@
+/* CSS Document */
+.topic_banner { background:url(../images/topic_banner4.jpg) no-repeat center top #df262c; height:300px; }
+.topic_box { background-color:#df262c; padding:80px 0 50px; margin-bottom:-10px; }
+.topic_box .wrap { position:relative; }
+.topic_box .code { width:261px; height:261px; position:absolute; top:80px; left:60px; }

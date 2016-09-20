@@ -1,0 +1,25 @@
+/*CSS Reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0;padding: 0;border:0; font-size: 100%;font:inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block;
+}
+a { color: #222; text-decoration: none; outline: none; border:0px;-webkit-tap-highlight-color: rgba(255,255,255,0);}
+body {line-height:1.5em;position:relative;font-size:14px; background: #a1edf7;  font-family: "microsoft yahei";min-width: 320px; max-width: 640px; margin: 0 auto;}
+img { border:0px; width: 100%;}
+ol,ul {list-style: none;}
+blockquote ,q { quotes: none;}
+blockquote:before, blockquote:after,q:before,q:after{content: ''; content:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+.clear { clear: both;}
+.clearfix::after{content:"";display:block;height:0;clear:both;visibility:hidden}
+
+.top-img { width: 100%; margin: 0px auto;}
+.top-img .logo { width:30%; position: absolute; max-width: 100%; width: auto; max-height:50px;right: 5px; top:5px;}
+.form-box { width: 70%; margin:20px auto 0px;}
+.form-box .line {height: 3.21em; margin-bottom: 10px;}
+.line .line-tel,.line .line-q { width: 100%; height: 2.14em; border:0px; background: #fff; border-radius:5px; padding-left: 5px; outline: none; font-size: 1em;}
+.line-q::-webkit-inner-spin-button { display: none;}
+.line .line-sub { width: 100%; height: 2.14em; background: #5ac709; color: #fff; text-align: center; border: 0px; outline: none;border-radius:5px; font-size: 1em;-webkit-appearance:none;}
+.rule { width: 70%; margin: 0px auto;}
+.rule p{ font-size: 1em; line-height: 1.5em; color: #666;}
+

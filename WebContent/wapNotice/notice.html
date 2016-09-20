@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+	<div class="coupons_tag news_tag">
+		<ul>
+			<li class="vis">媒体报道</li>
+			<li>平台公告</li>
+		</ul>
+	</div>
+	<div class="moredllist newsList">
+		<dl>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+		</dl>
+		<dl>
+			<dd><a href="#">远大住工工业球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+			<dd><a href="#">远大住工工业化别墅“Bhouse”即将全球首发</a><span class="time">[06-17]</span></dd>
+		</dl>
+	</div>
+
+</body>
+</html>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/rem.js"></script>
+<script>
+$(function(){
+	var tag = $('.coupons_tag li');
+	var ul = $('.newsList dl');
+
+	ul.first().show(0);
+
+	tag.click(function(){
+		var index = $(this).index();
+		$(this).addClass('vis').siblings('li').removeClass('vis');
+
+		ul.eq(index).show(0).siblings('dl').hide(0);
+	})
+})
+</script>
